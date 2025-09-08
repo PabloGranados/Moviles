@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UI Elements Demo</string>
+    <string name="tab_textos">Textos</string>
+    <string name="tab_botones">Botones</string>
+    <string name="tab_seleccion">Selección</string>
+    <string name="tab_listas">Listas</string>
+    <string name="tab_informacion">Info</string>
+</resources>
