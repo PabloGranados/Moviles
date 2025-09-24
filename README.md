@@ -8,41 +8,45 @@ Esta aplicación Android demuestra el uso de **Activities y Fragments** para exp
 
 ## 📸 Capturas de Pantalla
 
-### Pantalla Principal
 <div align="center">
-<img src="screenshots/main_activity.jpg" width="300" alt="MainActivity - Pantalla Principal">
+
+### 🏠 Pantalla Principal
+<img src="screenshots/main_activity.jpg" width="400" alt="MainActivity - Pantalla Principal">
+
+---
+
+### 📱 Elementos de UI Implementados
+
 </div>
 
-### Elementos de UI
-<div align="center">
-<table>
-<tr>
-<td align="center">
-<img src="screenshots/textfields_fragment.jpg" width="250" alt="TextFields Fragment">
-<br><b>📝 TextFields</b>
-</td>
-<td align="center">
-<img src="screenshots/botones_fragment.jpg" width="250" alt="Botones Fragment">
-<br><b>🔘 Botones</b>
-</td>
-<td align="center">
-<img src="screenshots/seleccion_fragment.jpg" width="250" alt="Selección Fragment">
-<img src="screenshots/seleccion_fragment_02.jpg" width="250" alt="Selección Fragment 2">
-<br><b>☑️ Selección</b>
-</td>
-</tr>
-<tr>
-<td align="center">
-<img src="screenshots/listas_fragment.jpg" width="250" alt="Listas Fragment">
-<br><b>📋 Listas</b>
-</td>
-<td align="center">
-<img src="screenshots/informacion_fragment.jpg" width="250" alt="Información Fragment">
-<br><b>ℹ️ Información</b>
-</td>
-</tr>
-</table>
-</div>
+#### 📝 **TextFields - Campos de Texto**
+<p align="center">
+<img src="screenshots/textfields_fragment.jpg" width="350" alt="TextFields Fragment">
+</p>
+
+#### � **Botones - Elementos Interactivos**  
+<p align="center">
+<img src="screenshots/botones_fragment.jpg" width="350" alt="Botones Fragment">
+</p>
+
+#### ☑️ **Selección - Checkboxes, Radio & Switches**
+<p align="center">
+<img src="screenshots/seleccion_fragment.jpg" width="350" alt="Selección Fragment - Parte 1">
+<br><br>
+<img src="screenshots/seleccion_fragment_02.jpg" width="350" alt="Selección Fragment - Parte 2">
+</p>
+
+#### 📋 **Listas - RecyclerView Dinámico**
+<p align="center">
+<img src="screenshots/listas_fragment.jpg" width="350" alt="Listas Fragment">
+</p>
+
+#### ℹ️ **Información - TextViews & Widgets**
+<p align="center">
+<img src="screenshots/informacion_fragment.jpg" width="350" alt="Información Fragment">
+</p>
+
+---
 
 ## 🎯 Objetivo
 
