@@ -36,7 +36,7 @@ Esta aplicación Android demuestra el uso de **Activities y Fragments** para exp
 <img src="screenshots/seleccion_fragment_02.jpg" width="350" alt="Selección Fragment - Parte 2">
 </p>
 
-#### 📋 **Listas - RecyclerView Dinámico**
+#### 📋 **Listas**
 <p align="center">
 <img src="screenshots/listas_fragment.jpg" width="350" alt="Listas Fragment">
 </p>
