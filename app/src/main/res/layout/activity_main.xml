@@ -1,59 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
-    <!-- ViewPager2 para mostrar los fragments -->
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/viewPager"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/tabLayout"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <!-- TabLayout para la navegación -->
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayout"
-        android:layout_width="0dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        app:tabTextColor="@android:color/white"
-        app:tabSelectedTextColor="@android:color/white"
-        app:tabIndicatorColor="@android:color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        android:orientation="vertical"
+        android:gravity="center">
 
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
+        <!-- Título Principal -->
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Textos" />
+            android:text="📱 UI Elements Demo"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:textColor="?attr/colorPrimary" />
 
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
+        <!-- Descripción -->
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Botones" />
+            android:text="💡 Explora diferentes elementos de interfaz de usuario de Android. Cada sección demuestra componentes específicos con ejemplos interactivos."
+            android:textSize="16sp"
+            android:layout_marginBottom="32dp"
+            android:lineSpacingExtra="4dp"
+            android:gravity="center" />
 
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
+        <!-- Botón TextFields -->
+        <Button
+            android:id="@+id/btnTextFields"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="📝 Campos de Texto\n(EditText)"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:drawableStart="@android:drawable/ic_menu_edit"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical|start"
+            android:paddingStart="24dp"
+            android:paddingEnd="16dp" />
+
+        <!-- Botón Botones -->
+        <Button
+            android:id="@+id/btnBotones"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="🔘 Botones Interactivos\n(Button, ImageButton)"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:drawableStart="@android:drawable/ic_menu_preferences"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical|start"
+            android:paddingStart="24dp"
+            android:paddingEnd="16dp" />
+
+        <!-- Botón Selección -->
+        <Button
+            android:id="@+id/btnSeleccion"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="☑️ Elementos de Selección\n(CheckBox, RadioButton, Switch)"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:drawableStart="@android:drawable/ic_menu_agenda"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical|start"
+            android:paddingStart="24dp"
+            android:paddingEnd="16dp" />
+
+        <!-- Botón Listas -->
+        <Button
+            android:id="@+id/btnListas"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="📋 Listas Interactivas\n(RecyclerView, ListView)"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:drawableStart="@android:drawable/ic_menu_sort_by_size"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical|start"
+            android:paddingStart="24dp"
+            android:paddingEnd="16dp" />
+
+        <!-- Botón Información -->
+        <Button
+            android:id="@+id/btnInformacion"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="ℹ️ Elementos de Información\n(TextView, ImageView, ProgressBar)"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:drawableStart="@android:drawable/ic_menu_info_details"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical|start"
+            android:paddingStart="24dp"
+            android:paddingEnd="16dp" />
+
+        <!-- Footer -->
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Selección" />
+            android:text="✨ Toca cualquier botón para explorar ese elemento de UI"
+            android:textSize="14sp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="?attr/colorOnSurfaceVariant" />
 
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Listas" />
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Info" />
-
-    </com.google.android.material.tabs.TabLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>

@@ -11,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.App1">
+        
+        <!-- MainActivity - Pantalla principal con menú de navegación -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -18,10 +20,50 @@
             android:theme="@style/Theme.App1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <!-- TextFieldsActivity - Activity para campos de texto -->
+        <activity
+            android:name=".TextFieldsActivity"
+            android:exported="false"
+            android:label="Campos de Texto"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.App1" />
+            
+        <!-- BotonesActivity - Activity para botones -->
+        <activity
+            android:name=".BotonesActivity"
+            android:exported="false"
+            android:label="Botones Interactivos"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.App1" />
+            
+        <!-- SeleccionActivity - Activity para elementos de selección -->
+        <activity
+            android:name=".SeleccionActivity"
+            android:exported="false"
+            android:label="Elementos de Selección"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.App1" />
+            
+        <!-- ListasActivity - Activity para listas -->
+        <activity
+            android:name=".ListasActivity"
+            android:exported="false"
+            android:label="Listas Interactivas"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.App1" />
+            
+        <!-- InformacionActivity - Activity para elementos de información -->
+        <activity
+            android:name=".InformacionActivity"
+            android:exported="false"
+            android:label="Elementos de Información"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.App1" />
+            
     </application>
 
 </manifest>

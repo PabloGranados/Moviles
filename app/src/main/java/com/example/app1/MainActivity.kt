@@ -1,24 +1,18 @@
 package com.example.app1
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentActivity
-import androidx.viewpager2.adapter.FragmentStateAdapter
-import androidx.viewpager2.widget.ViewPager2
-import com.google.android.material.tabs.TabLayout
-import com.google.android.material.tabs.TabLayoutMediator
-import com.example.app1.ui.TextFieldsFragment
-import com.example.app1.ui.BotonesFragment
-import com.example.app1.ui.SeleccionFragment
-import com.example.app1.ui.ListasFragment
-import com.example.app1.ui.InformacionFragment
 
 class MainActivity : AppCompatActivity() {
     
-    private var viewPager: ViewPager2? = null
-    private var tabLayout: TabLayout? = null
+    private var btnTextFields: Button? = null
+    private var btnBotones: Button? = null
+    private var btnSeleccion: Button? = null
+    private var btnListas: Button? = null
+    private var btnInformacion: Button? = null
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,65 +20,78 @@ class MainActivity : AppCompatActivity() {
         try {
             setContentView(R.layout.activity_main)
             
-            viewPager = findViewById(R.id.viewPager)
-            tabLayout = findViewById(R.id.tabLayout)
+            // Configurar ActionBar
+            supportActionBar?.title = "📱 UI Elements Demo"
             
-            setupViewPager()
+            initViews()
+            setupListeners()
         } catch (e: Exception) {
             Toast.makeText(this, "Error al inicializar la aplicación: ${e.message}", Toast.LENGTH_LONG).show()
             finish()
         }
     }
     
-    private fun setupViewPager() {
-        try {
-            val adapter = ViewPagerAdapter(this)
-            viewPager?.adapter = adapter
-            
-            // Conectar TabLayout con ViewPager2
-            viewPager?.let { vp ->
-                tabLayout?.let { tl ->
-                    TabLayoutMediator(tl, vp) { tab, position ->
-                        tab.text = when (position) {
-                            0 -> "Textos"
-                            1 -> "Botones"
-                            2 -> "Selección"
-                            3 -> "Listas"
-                            4 -> "Info"
-                            else -> "Tab $position"
-                        }
-                    }.attach()
-                }
-            }
-        } catch (e: Exception) {
-            Toast.makeText(this, "Error al configurar navegación: ${e.message}", Toast.LENGTH_LONG).show()
-        }
+    private fun initViews() {
+        btnTextFields = findViewById(R.id.btnTextFields)
+        btnBotones = findViewById(R.id.btnBotones)
+        btnSeleccion = findViewById(R.id.btnSeleccion)
+        btnListas = findViewById(R.id.btnListas)
+        btnInformacion = findViewById(R.id.btnInformacion)
     }
     
-    private class ViewPagerAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdapter(fragmentActivity) {
-        
-        override fun getItemCount(): Int = 5
-        
-        override fun createFragment(position: Int): Fragment {
-            return try {
-                when (position) {
-                    0 -> TextFieldsFragment()
-                    1 -> BotonesFragment()
-                    2 -> SeleccionFragment()
-                    3 -> ListasFragment()
-                    4 -> InformacionFragment()
-                    else -> TextFieldsFragment()
-                }
+    private fun setupListeners() {
+        btnTextFields?.setOnClickListener {
+            try {
+                val intent = Intent(this, TextFieldsActivity::class.java)
+                startActivity(intent)
             } catch (e: Exception) {
-                // En caso de error, devolver un fragment básico
-                TextFieldsFragment()
+                Toast.makeText(this, "Error al abrir TextFields: ${e.message}", Toast.LENGTH_SHORT).show()
+            }
+        }
+        
+        btnBotones?.setOnClickListener {
+            try {
+                val intent = Intent(this, BotonesActivity::class.java)
+                startActivity(intent)
+            } catch (e: Exception) {
+                Toast.makeText(this, "Error al abrir Botones: ${e.message}", Toast.LENGTH_SHORT).show()
+            }
+        }
+        
+        btnSeleccion?.setOnClickListener {
+            try {
+                val intent = Intent(this, SeleccionActivity::class.java)
+                startActivity(intent)
+            } catch (e: Exception) {
+                Toast.makeText(this, "Error al abrir Selección: ${e.message}", Toast.LENGTH_SHORT).show()
+            }
+        }
+        
+        btnListas?.setOnClickListener {
+            try {
+                val intent = Intent(this, ListasActivity::class.java)
+                startActivity(intent)
+            } catch (e: Exception) {
+                Toast.makeText(this, "Error al abrir Listas: ${e.message}", Toast.LENGTH_SHORT).show()
+            }
+        }
+        
+        btnInformacion?.setOnClickListener {
+            try {
+                val intent = Intent(this, InformacionActivity::class.java)
+                startActivity(intent)
+            } catch (e: Exception) {
+                Toast.makeText(this, "Error al abrir Información: ${e.message}", Toast.LENGTH_SHORT).show()
             }
         }
     }
     
     override fun onDestroy() {
         super.onDestroy()
-        viewPager = null
-        tabLayout = null
+        btnTextFields = null
+        btnBotones = null
+        btnSeleccion = null
+        btnListas = null
+        btnInformacion = null
     }
 }
