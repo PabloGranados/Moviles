@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+    <!-- Tema base de la aplicación -->
+    <style name="DinosaurTheme" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryVariant">@color/primary_green_dark</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        
+        <item name="colorSecondary">@color/secondary_brown</item>
+        <item name="colorSecondaryVariant">@color/secondary_brown_dark</item>
+        <item name="colorOnSecondary">@color/text_on_primary</item>
+        
+        <item name="android:colorBackground">@color/surface_light</item>
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorOnSurface">@color/text_on_surface</item>
+        
+        <item name="colorAccent">@color/accent_orange</item>
+        
+        <!-- Personalización de la barra de estado -->
+        <item name="android:statusBarColor">@color/primary_green_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Tema sin ActionBar para activities con toolbar personalizado -->
+    <style name="DinosaurTheme.NoActionBar" parent="DinosaurTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <!-- Estilos para texto -->
+    <style name="DinosaurText">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="DinosaurText.Title" parent="DinosaurText">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+    </style>
+
+    <style name="DinosaurText.Subtitle" parent="DinosaurText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="DinosaurText.EraTitle" parent="DinosaurText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+    </style>
+
+    <style name="DinosaurText.EraDescription" parent="DinosaurText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+    </style>
+
+    <style name="DinosaurText.DinosaurName" parent="DinosaurText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DinosaurText.DinosaurInfo" parent="DinosaurText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <!-- Estilos para botones -->
+    <style name="DinosaurButton" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="backgroundTint">@color/primary_green</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingHorizontal">24dp</item>
+        <item name="android:paddingVertical">12dp</item>
+        <item name="cornerRadius">25dp</item>
+    </style>
+
+    <style name="DinosaurButton.Secondary" parent="DinosaurButton">
+        <item name="backgroundTint">@color/secondary_brown</item>
+    </style>
+
+    <style name="DinosaurButton.Accent" parent="DinosaurButton">
+        <item name="backgroundTint">@color/accent_orange</item>
+    </style>
+
+    <!-- Estilos para cards -->
+    <style name="DinosaurCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="rippleColor">@color/ripple_effect</item>
+    </style>
+
+    <style name="DinosaurCard.Era" parent="DinosaurCard">
+        <item name="cardElevation">12dp</item>
+        <item name="cardCornerRadius">20dp</item>
+    </style>
+
+    <!-- Estilos para transiciones -->
+    <style name="DinosaurAnimation">
+        <item name="android:duration">@android:integer/config_mediumAnimTime</item>
+    </style>
+
+    <style name="DinosaurAnimation.SlideIn" parent="DinosaurAnimation">
+        <item name="android:duration">500</item>
+    </style>
+
+    <style name="DinosaurAnimation.FadeIn" parent="DinosaurAnimation">
+        <item name="android:duration">300</item>
+    </style>
+
+</resources>

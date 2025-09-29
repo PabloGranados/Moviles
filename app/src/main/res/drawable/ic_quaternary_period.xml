@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    <!-- Fondo -->
+    <circle
+        android:fillColor="@color/cenozoic_accent"
+        android:cx="30"
+        android:cy="30"
+        android:r="25"/>
+    <!-- Mamut/Humano -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M20,35 Q25,30 30,35 Q35,30 40,35 Q35,40 30,35 Q25,40 20,35 Z"/>
+    <!-- Colmillos del mamut -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M25,35 L20,42"/>
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M35,35 L40,42"/>
+    <!-- Trompa -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M30,35 Q25,42 20,45"/>
+</vector>

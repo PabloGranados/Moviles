@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Fondo -->
+    <circle
+        android:fillColor="@color/mesozoic_primary"
+        android:cx="50"
+        android:cy="50"
+        android:r="40"/>
+    <!-- Triceratops simplificado -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M25,50 Q35,45 50,50 Q65,45 75,50 Q65,55 50,50 Q35,55 25,50 Z"/>
+    <!-- Tres cuernos -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M65,45 L70,35"/>
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M70,45 L75,35"/>
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M75,50 L80,40"/>
+    <!-- Cresta -->
+    <path
+        android:fillColor="@color/mesozoic_accent"
+        android:pathData="M65,50 Q75,40 80,50"/>
+</vector>

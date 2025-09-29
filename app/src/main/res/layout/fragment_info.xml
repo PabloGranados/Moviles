@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivInfoIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_info"
+        app:tint="@color/primary_green"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="Information icon" />
+
+    <TextView
+        android:id="@+id/tvInfoTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Viaje Temporal"
+        style="@style/DinosaurText.DinosaurName"
+        android:layout_marginStart="12dp"
+        app:layout_constraintStart_toEndOf="@id/ivInfoIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/ivInfoIcon"
+        app:layout_constraintBottom_toBottomOf="@id/ivInfoIcon" />
+
+    <TextView
+        android:id="@+id/tvInfoDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Selecciona una era para comenzar tu viaje a través del tiempo y descubrir las criaturas que dominaron nuestro planeta."
+        style="@style/DinosaurText.DinosaurInfo"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivInfoIcon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

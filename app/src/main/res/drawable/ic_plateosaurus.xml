@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Fondo -->
+    <circle
+        android:fillColor="@color/mesozoic_accent"
+        android:cx="50"
+        android:cy="50"
+        android:r="40"/>
+    <!-- Plateosaurus -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M25,55 Q35,50 50,55 Q65,50 75,55 Q65,60 50,55 Q35,60 25,55 Z"/>
+    <!-- Cuello largo -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M65,55 Q75,35 80,55"/>
+    <!-- Cola larga -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M35,55 Q15,50 10,65"/>
+</vector>

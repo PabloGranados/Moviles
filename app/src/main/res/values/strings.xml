@@ -1,8 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">UI Elements Demo</string>
-    <string name="tab_textos">Textos</string>
-    <string name="tab_botones">Botones</string>
-    <string name="tab_seleccion">Selección</string>
-    <string name="tab_listas">Listas</string>
-    <string name="tab_informacion">Info</string>
+    <!-- Aplicación -->
+    <string name="app_name">Viaje Prehistórico</string>
+    
+    <!-- MainActivity - Eras -->
+    <string name="main_title">Explora las Eras Prehistóricas</string>
+    <string name="main_subtitle">Viaja a través del tiempo y descubre las criaturas que dominaron la Tierra</string>
+    <string name="era_mesozoica">Era Mesozoica</string>
+    <string name="era_mesozoica_desc">La Era de los Dinosaurios\n252 - 66 millones de años</string>
+    <string name="era_paleozoica">Era Paleozoica</string>
+    <string name="era_paleozoica_desc">Los Primeros Vertebrados\n541 - 252 millones de años</string>
+    <string name="era_cenozoica">Era Cenozoica</string>
+    <string name="era_cenozoica_desc">La Era de los Mamíferos\n66 millones de años - presente</string>
+    
+    <!-- PeriodActivity - Períodos -->
+    <string name="period_title">Períodos de la %s</string>
+    <string name="period_subtitle">Selecciona un período para explorar sus criaturas</string>
+    
+    <!-- Períodos Mesozoicos -->
+    <string name="period_triassic">Triásico</string>
+    <string name="period_triassic_desc">252 - 201 Ma\nLos primeros dinosaurios</string>
+    <string name="period_jurassic">Jurásico</string>
+    <string name="period_jurassic_desc">201 - 145 Ma\nGigantes de cuello largo</string>
+    <string name="period_cretaceous">Cretácico</string>
+    <string name="period_cretaceous_desc">145 - 66 Ma\nDepredadores masivos</string>
+    
+    <!-- Períodos Paleozoicos -->
+    <string name="period_devonian">Devónico</string>
+    <string name="period_devonian_desc">419 - 359 Ma\nLa era de los peces</string>
+    <string name="period_carboniferous">Carbonífero</string>
+    <string name="period_carboniferous_desc">359 - 299 Ma\nBosques gigantes</string>
+    <string name="period_permian">Pérmico</string>
+    <string name="period_permian_desc">299 - 252 Ma\nSuperdepredadores</string>
+    
+    <!-- Períodos Cenozoicos -->
+    <string name="period_paleogene">Paleógeno</string>
+    <string name="period_paleogene_desc">66 - 23 Ma\nRenacimiento tras extinción</string>
+    <string name="period_neogene">Neógeno</string>
+    <string name="period_neogene_desc">23 - 2.6 Ma\nExpansión de mamíferos</string>
+    <string name="period_quaternary">Cuaternario</string>
+    <string name="period_quaternary_desc">2.6 Ma - presente\nEdad de hielo y humanos</string>
+    
+    <!-- DinosaurActivity -->
+    <string name="dinosaur_title">Criaturas del %s</string>
+    <string name="dinosaur_subtitle">Descubre las fascinantes criaturas de este período</string>
+    <string name="dinosaur_characteristics">Características</string>
+    <string name="dinosaur_habitat">Hábitat</string>
+    <string name="dinosaur_diet">Dieta</string>
+    <string name="dinosaur_size">Tamaño</string>
+    <string name="dinosaur_discovery">Descubrimiento</string>
+    
+    <!-- Navegación -->
+    <string name="back_button">Volver</string>
+    <string name="explore_button">Explorar</string>
+    <string name="learn_more">Aprender más</string>
+    
+    <!-- Transiciones -->
+    <string name="time_travel_message">Viajando a través del tiempo...</string>
+    <string name="entering_era">Entrando a la %s</string>
+    <string name="exploring_period">Explorando el período %s</string>
+    
+    <!-- Puntos de interés -->
+    <string name="fossil_site">Sitio de Fósiles</string>
+    <string name="research_station">Estación de Investigación</string>
+    <string name="observation_point">Punto de Observación</string>
+    <string name="time_portal">Portal del Tiempo</string>
 </resources>

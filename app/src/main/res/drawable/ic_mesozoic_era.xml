@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+    <!-- Fondo circular -->
+    <path
+        android:fillColor="@color/mesozoic_primary"
+        android:pathData="M40,10 A30,30 0 1,1 40,70 A30,30 0 1,1 40,10 Z"/>
+    <!-- Silueta de dinosaurio simple -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M25,35 Q30,30 35,35 L45,35 Q50,30 55,35 L55,45 Q50,50 45,45 L35,45 Q30,50 25,45 Z"/>
+    <!-- Cuello largo -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M35,35 Q40,25 45,35"/>
+    <!-- Cola -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M45,40 Q55,35 60,45"/>
+</vector>

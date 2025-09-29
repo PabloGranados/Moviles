@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Fondo -->
+    <circle
+        android:fillColor="@color/mesozoic_primary"
+        android:cx="50"
+        android:cy="50"
+        android:r="40"/>
+    <!-- Brachiosaurus -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M20,60 Q30,55 50,60 Q70,55 80,60 Q70,65 50,60 Q30,65 20,60 Z"/>
+    <!-- Cuello muy largo -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M70,60 Q80,20 85,60"/>
+    <!-- Patas altas -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M35,60 L35,75"/>
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M65,60 L65,75"/>
+</vector>
