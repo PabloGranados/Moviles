@@ -1,0 +1,214 @@
+[
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_brachiosaurus.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_brachiosaurus.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/layout_fragment_info.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/layout/fragment_info.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_habitat.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_habitat.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_dinosaur_background_gradient.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/dinosaur_background_gradient.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/layout_item_era_card.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/layout/item_era_card.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/layout_item_period_card.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/layout/item_period_card.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/layout_fragment_creatures_list.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/layout/fragment_creatures_list.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_fragment_background.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/fragment_background.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_neogene_period.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_neogene_period.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_cenozoic_era.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_cenozoic_era.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_discovery.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_discovery.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/anim_time_portal_effect.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/anim/time_portal_effect.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_info.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_jurassic_period.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_jurassic_period.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_gradient_overlay.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/gradient_overlay.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_observation_point.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_observation_point.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_paleozoic_era.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_paleozoic_era.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_exploration_map_background.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/exploration_map_background.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/layout_item_interest_point.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/layout/item_interest_point.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_time_portal.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_time_portal.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_fossil_site.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_fossil_site.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/layout_fragment_explore.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/layout/fragment_explore.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_period_background_gradient.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/period_background_gradient.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_cretaceous_period.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_cretaceous_period.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_carboniferous_period.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_carboniferous_period.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/layout_item_exploration_site.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/layout/item_exploration_site.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/anim_slide_out_right.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/layout_activity_main.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/layout_activity_period.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/layout/activity_period.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_devonian_period.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_devonian_period.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_coelophysis.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_coelophysis.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/layout_activity_dinosaur.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/layout/activity_dinosaur.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/anim_slide_in_right.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_tag_background.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/tag_background.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_mesozoic_era.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_mesozoic_era.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/layout_fragment_interest_points.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/layout/fragment_interest_points.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_paleogene_period.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_paleogene_period.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_creature_image_background.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/creature_image_background.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_arrow_forward.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_arrow_forward.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_research_station.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_research_station.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/layout_item_creature_card.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/layout/item_creature_card.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/anim_slide_in_left.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_explore.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_explore.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_triassic_period.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_triassic_period.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_plateosaurus.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_plateosaurus.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/anim_scale_fade_in.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/anim/scale_fade_in.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_permian_period.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_permian_period.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_stegosaurus.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_stegosaurus.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/layout_fragment_period_info.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/layout/fragment_period_info.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/anim_slide_out_left.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_quaternary_period.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_quaternary_period.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_ic_triceratops.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/ic_triceratops.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/drawable_main_background_gradient.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/drawable/main_background_gradient.xml"
+    }
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    <!-- Fondo -->
+    <circle
+        android:fillColor="@color/mesozoic_secondary"
+        android:cx="30"
+        android:cy="30"
+        android:r="25"/>
+    <!-- Dinosaurio de cuello largo -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M20,35 Q25,30 30,35 L40,35 Q45,30 50,35 L50,40 Q45,45 40,40 L30,40 Q25,45 20,40 Z"/>
+    <!-- Cuello muy largo -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M30,35 Q35,20 40,35"/>
+</vector>
