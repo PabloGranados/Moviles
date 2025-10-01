@@ -4,12 +4,10 @@ package com.example.dinosaurapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.cardview.widget.CardView;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.widget.NestedScrollView;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -20,41 +18,24 @@ import java.lang.String;
 
 public final class FragmentExploreBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
-
-  @NonNull
-  public final ImageView ivPoint1;
-
-  @NonNull
-  public final ImageView ivPoint2;
-
-  @NonNull
-  public final ImageView ivPoint3;
-
-  @NonNull
-  public final CardView mapCard;
+  private final NestedScrollView rootView;
 
   @NonNull
   public final RecyclerView rvExplorationSites;
 
   @NonNull
-  public final TextView tvExploreTitle;
+  public final TextView tvExplorationDescription;
 
-  private FragmentExploreBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView ivPoint1,
-      @NonNull ImageView ivPoint2, @NonNull ImageView ivPoint3, @NonNull CardView mapCard,
-      @NonNull RecyclerView rvExplorationSites, @NonNull TextView tvExploreTitle) {
+  private FragmentExploreBinding(@NonNull NestedScrollView rootView,
+      @NonNull RecyclerView rvExplorationSites, @NonNull TextView tvExplorationDescription) {
     this.rootView = rootView;
-    this.ivPoint1 = ivPoint1;
-    this.ivPoint2 = ivPoint2;
-    this.ivPoint3 = ivPoint3;
-    this.mapCard = mapCard;
     this.rvExplorationSites = rvExplorationSites;
-    this.tvExploreTitle = tvExploreTitle;
+    this.tvExplorationDescription = tvExplorationDescription;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public NestedScrollView getRoot() {
     return rootView;
   }
 
@@ -79,44 +60,20 @@ public final class FragmentExploreBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.ivPoint1;
-      ImageView ivPoint1 = ViewBindings.findChildViewById(rootView, id);
-      if (ivPoint1 == null) {
-        break missingId;
-      }
-
-      id = R.id.ivPoint2;
-      ImageView ivPoint2 = ViewBindings.findChildViewById(rootView, id);
-      if (ivPoint2 == null) {
-        break missingId;
-      }
-
-      id = R.id.ivPoint3;
-      ImageView ivPoint3 = ViewBindings.findChildViewById(rootView, id);
-      if (ivPoint3 == null) {
-        break missingId;
-      }
-
-      id = R.id.mapCard;
-      CardView mapCard = ViewBindings.findChildViewById(rootView, id);
-      if (mapCard == null) {
-        break missingId;
-      }
-
       id = R.id.rvExplorationSites;
       RecyclerView rvExplorationSites = ViewBindings.findChildViewById(rootView, id);
       if (rvExplorationSites == null) {
         break missingId;
       }
 
-      id = R.id.tvExploreTitle;
-      TextView tvExploreTitle = ViewBindings.findChildViewById(rootView, id);
-      if (tvExploreTitle == null) {
+      id = R.id.tvExplorationDescription;
+      TextView tvExplorationDescription = ViewBindings.findChildViewById(rootView, id);
+      if (tvExplorationDescription == null) {
         break missingId;
       }
 
-      return new FragmentExploreBinding((ConstraintLayout) rootView, ivPoint1, ivPoint2, ivPoint3,
-          mapCard, rvExplorationSites, tvExploreTitle);
+      return new FragmentExploreBinding((NestedScrollView) rootView, rvExplorationSites,
+          tvExplorationDescription);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

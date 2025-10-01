@@ -19,11 +19,13 @@ class ExplorationSiteAdapter(
         private val siteIcon: ImageView = itemView.findViewById(R.id.ivSiteIcon)
         private val siteName: TextView = itemView.findViewById(R.id.tvSiteName)
         private val siteDescription: TextView = itemView.findViewById(R.id.tvSiteDescription)
+        private val siteType: TextView = itemView.findViewById(R.id.tvSiteType)
 
         fun bind(site: ExplorationSite) {
             siteIcon.setImageResource(site.iconResource)
-            siteName.text = site.name
+            siteName.text = "${getEmojiForType(site.type)} ${site.name}"
             siteDescription.text = site.description
+            siteType.text = getTypeLabel(site.type)
             
             itemView.setOnClickListener {
                 // Animación de click
@@ -40,6 +42,24 @@ class ExplorationSiteAdapter(
                                 onSiteClick(site)
                             }
                     }
+            }
+        }
+        
+        private fun getEmojiForType(type: InterestPointType): String {
+            return when (type) {
+                InterestPointType.FOSSIL_SITE -> "🦴"
+                InterestPointType.RESEARCH_STATION -> "🔬"
+                InterestPointType.OBSERVATION_POINT -> "🔭"
+                InterestPointType.TIME_PORTAL -> "⏰"
+            }
+        }
+        
+        private fun getTypeLabel(type: InterestPointType): String {
+            return when (type) {
+                InterestPointType.FOSSIL_SITE -> "Yacimiento"
+                InterestPointType.RESEARCH_STATION -> "Laboratorio"
+                InterestPointType.OBSERVATION_POINT -> "Observatorio"
+                InterestPointType.TIME_PORTAL -> "Portal Temporal"
             }
         }
     }

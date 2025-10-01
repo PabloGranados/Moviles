@@ -8,6 +8,10 @@
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\layout\\fragment_explore.xml"
     },
     {
+        "merged": "com.example.dinosaurapp-mergeDebugResources-48:/layout/item_exploration_site.xml",
+        "source": "com.example.dinosaurapp-main-51:/layout/item_exploration_site.xml"
+    },
+    {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-mergeDebugResources-48:\\layout\\activity_main.xml",
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\layout\\activity_main.xml"
     },
@@ -18,10 +22,6 @@
     {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-mergeDebugResources-48:\\layout\\activity_period.xml",
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\layout\\activity_period.xml"
-    },
-    {
-        "merged": "com.example.dinosaurapp-mergeDebugResources-48:/layout/item_period_card.xml",
-        "source": "com.example.dinosaurapp-main-51:/layout/item_period_card.xml"
     },
     {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-mergeDebugResources-48:\\layout\\fragment_info.xml",
@@ -44,20 +44,12 @@
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\layout\\dialog_creature_details.xml"
     },
     {
-        "merged": "com.example.dinosaurapp-mergeDebugResources-48:/layout/dialog_creature_details.xml",
-        "source": "com.example.dinosaurapp-main-51:/layout/dialog_creature_details.xml"
-    },
-    {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-mergeDebugResources-48:\\layout\\item_era_card.xml",
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\layout\\item_era_card.xml"
     },
     {
-        "merged": "com.example.dinosaurapp-mergeDebugResources-48:/layout/item_era_card.xml",
-        "source": "com.example.dinosaurapp-main-51:/layout/item_era_card.xml"
-    },
-    {
-        "merged": "com.example.dinosaurapp-mergeDebugResources-48:/layout/item_creature_card.xml",
-        "source": "com.example.dinosaurapp-main-51:/layout/item_creature_card.xml"
+        "merged": "com.example.dinosaurapp-mergeDebugResources-48:/layout/fragment_explore.xml",
+        "source": "com.example.dinosaurapp-main-51:/layout/fragment_explore.xml"
     },
     {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-mergeDebugResources-48:\\layout\\fragment_interest_points.xml",

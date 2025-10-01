@@ -21,6 +21,9 @@ public final class ItemExplorationSiteBinding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
+  public final ImageView ivExploreArrow;
+
+  @NonNull
   public final ImageView ivSiteIcon;
 
   @NonNull
@@ -29,12 +32,18 @@ public final class ItemExplorationSiteBinding implements ViewBinding {
   @NonNull
   public final TextView tvSiteName;
 
-  private ItemExplorationSiteBinding(@NonNull CardView rootView, @NonNull ImageView ivSiteIcon,
-      @NonNull TextView tvSiteDescription, @NonNull TextView tvSiteName) {
+  @NonNull
+  public final TextView tvSiteType;
+
+  private ItemExplorationSiteBinding(@NonNull CardView rootView, @NonNull ImageView ivExploreArrow,
+      @NonNull ImageView ivSiteIcon, @NonNull TextView tvSiteDescription,
+      @NonNull TextView tvSiteName, @NonNull TextView tvSiteType) {
     this.rootView = rootView;
+    this.ivExploreArrow = ivExploreArrow;
     this.ivSiteIcon = ivSiteIcon;
     this.tvSiteDescription = tvSiteDescription;
     this.tvSiteName = tvSiteName;
+    this.tvSiteType = tvSiteType;
   }
 
   @Override
@@ -64,6 +73,12 @@ public final class ItemExplorationSiteBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.ivExploreArrow;
+      ImageView ivExploreArrow = ViewBindings.findChildViewById(rootView, id);
+      if (ivExploreArrow == null) {
+        break missingId;
+      }
+
       id = R.id.ivSiteIcon;
       ImageView ivSiteIcon = ViewBindings.findChildViewById(rootView, id);
       if (ivSiteIcon == null) {
@@ -82,8 +97,14 @@ public final class ItemExplorationSiteBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemExplorationSiteBinding((CardView) rootView, ivSiteIcon, tvSiteDescription,
-          tvSiteName);
+      id = R.id.tvSiteType;
+      TextView tvSiteType = ViewBindings.findChildViewById(rootView, id);
+      if (tvSiteType == null) {
+        break missingId;
+      }
+
+      return new ItemExplorationSiteBinding((CardView) rootView, ivExploreArrow, ivSiteIcon,
+          tvSiteDescription, tvSiteName, tvSiteType);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

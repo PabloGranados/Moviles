@@ -172,13 +172,9 @@ id ivInfoIcon
 id ivInterestIcon
 id ivPeriodBackground
 id ivPeriodIcon
-id ivPoint1
-id ivPoint2
-id ivPoint3
 id ivSiteIcon
 id main_container
 id main_coordinator
-id mapCard
 id progressIndicator
 id rvCreatures
 id rvEras
@@ -203,7 +199,7 @@ id tvEraDescription
 id tvEraName
 id tvEraTag
 id tvEvolution
-id tvExploreTitle
+id tvExplorationDescription
 id tvFossils
 id tvInfoDescription
 id tvInfoTitle
@@ -217,6 +213,7 @@ id tvPeriodName
 id tvPeriodTime
 id tvSiteDescription
 id tvSiteName
+id tvSiteType
 id tvSizeTag
 id tvTimeRange
 id viewPager

@@ -3521,9 +3521,6 @@ int id ivInfoIcon 0x7f0800fa
 int id ivInterestIcon 0x7f0800fb
 int id ivPeriodBackground 0x7f0800fc
 int id ivPeriodIcon 0x7f0800fd
-int id ivPoint1 0x7f0800fe
-int id ivPoint2 0x7f0800ff
-int id ivPoint3 0x7f080100
 int id ivSiteIcon 0x7f080101
 int id jumpToEnd 0x7f080102
 int id jumpToStart 0x7f080103
@@ -3542,7 +3539,6 @@ int id ltr 0x7f08010f
 int id m3_side_sheet 0x7f080110
 int id main_container 0x7f080111
 int id main_coordinator 0x7f080112
-int id mapCard 0x7f080113
 int id marquee 0x7f080114
 int id masked 0x7f080115
 int id match_constraint 0x7f080116
@@ -3805,7 +3801,7 @@ int id tvEraDescription 0x7f080216
 int id tvEraName 0x7f080217
 int id tvEraTag 0x7f080218
 int id tvEvolution 0x7f080219
-int id tvExploreTitle 0x7f08021a
+int id tvExplorationDescription 0x7f080242
 int id tvFossils 0x7f08021b
 int id tvInfoDescription 0x7f08021c
 int id tvInfoTitle 0x7f08021d
@@ -3819,6 +3815,7 @@ int id tvPeriodName 0x7f080224
 int id tvPeriodTime 0x7f080225
 int id tvSiteDescription 0x7f080226
 int id tvSiteName 0x7f080227
+int id tvSiteType 0x7f080243
 int id tvSizeTag 0x7f080228
 int id tvTimeRange 0x7f080229
 int id unchecked 0x7f08022a
