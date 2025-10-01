@@ -4,7 +4,10 @@
     <color name="accent_orange_light">#FFB300</color>
     <color name="background_gradient_end">#2E7D32</color>
     <color name="background_gradient_start">#1B5E20</color>
+    <color name="border_subtle">#E0E0E0</color>
     <color name="card_background">#FFFFFF</color>
+    <color name="card_background_elevated">#FEFEFE</color>
+    <color name="card_background_tinted">#F8F8F8</color>
     <color name="card_shadow">#40000000</color>
     <color name="cenozoic_accent">#FFC107</color>
     <color name="cenozoic_primary">#FF8F00</color>
@@ -25,11 +28,61 @@
     <color name="secondary_brown_dark">#3E2723</color>
     <color name="secondary_brown_light">#8D6E63</color>
     <color name="surface_dark">#2E2E2E</color>
-    <color name="surface_light">#F5F5DC</color>
+    <color name="surface_light">#FAFAFA</color>
+    <color name="surface_medium">#F5F5F5</color>
+    <color name="text_high_contrast">#000000</color>
+    <color name="text_on_dark">#FFFFFF</color>
+    <color name="text_on_light">#212121</color>
     <color name="text_on_primary">#FFFFFF</color>
     <color name="text_on_surface">#000000</color>
     <color name="text_primary">#212121</color>
-    <color name="text_secondary">#757575</color>
+    <color name="text_secondary">#616161</color>
+    <dimen name="card_content_spacing">@dimen/margin_small</dimen>
+    <dimen name="card_corner_radius_large">20dp</dimen>
+    <dimen name="card_corner_radius_medium">16dp</dimen>
+    <dimen name="card_corner_radius_small">12dp</dimen>
+    <dimen name="card_elevation_high">12dp</dimen>
+    <dimen name="card_elevation_normal">8dp</dimen>
+    <dimen name="card_min_height">80dp</dimen>
+    <dimen name="card_padding_large">@dimen/padding_large</dimen>
+    <dimen name="card_padding_standard">@dimen/padding_medium</dimen>
+    <dimen name="icon_size_large">48dp</dimen>
+    <dimen name="icon_size_medium">32dp</dimen>
+    <dimen name="icon_size_small">24dp</dimen>
+    <dimen name="icon_size_tiny">16dp</dimen>
+    <dimen name="image_size_large">80dp</dimen>
+    <dimen name="image_size_medium">64dp</dimen>
+    <dimen name="image_size_small">48dp</dimen>
+    <dimen name="image_size_tiny">32dp</dimen>
+    <dimen name="image_size_xlarge">100dp</dimen>
+    <dimen name="interest_point_card_width">120dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    <dimen name="min_touch_target">48dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_tiny">4dp</dimen>
+    <dimen name="padding_xlarge">32dp</dimen>
+    <dimen name="text_size_headline">28sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_micro">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_title">24sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="text_size_xxlarge">20sp</dimen>
+    <dimen name="text_spacing_large">12dp</dimen>
+    <dimen name="text_spacing_medium">8dp</dimen>
+    <dimen name="text_spacing_small">4dp</dimen>
+    <dimen name="text_spacing_tiny">2dp</dimen>
+    <dimen name="timeline_indicator_width">6dp</dimen>
+    <integer name="max_lines_description">3</integer>
+    <integer name="max_lines_detail">4</integer>
+    <integer name="max_lines_title">2</integer>
     <string name="app_name">Viaje Prehistórico</string>
     <string name="back_button">Volver</string>
     <string name="dinosaur_characteristics">Características</string>
@@ -101,45 +154,132 @@
         <item name="backgroundTint">@color/secondary_brown</item>
     </style>
     <style name="DinosaurCard" parent="Widget.Material3.CardView.Elevated">
-        <item name="cardBackgroundColor">@color/card_background</item>
-        <item name="cardCornerRadius">16dp</item>
-        <item name="cardElevation">8dp</item>
-        <item name="android:layout_margin">8dp</item>
+        <item name="cardBackgroundColor">@color/card_background_elevated</item>
+        <item name="cardCornerRadius">@dimen/card_corner_radius_medium</item>
+        <item name="cardElevation">@dimen/card_elevation_normal</item>
+        <item name="android:layout_margin">@dimen/margin_small</item>
         <item name="rippleColor">@color/ripple_effect</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/border_subtle</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+    <style name="DinosaurCard.Creature" parent="DinosaurCard">
+        <item name="android:layout_marginVertical">@dimen/margin_small</item>
+        <item name="android:layout_marginHorizontal">@dimen/margin_medium</item>
+    </style>
+    <style name="DinosaurCard.Dialog" parent="DinosaurCard">
+        <item name="cardElevation">@dimen/card_elevation_high</item>
+        <item name="android:layout_margin">@dimen/margin_large</item>
+        <item name="strokeWidth">0dp</item>
     </style>
     <style name="DinosaurCard.Era" parent="DinosaurCard">
-        <item name="cardElevation">12dp</item>
-        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">@dimen/card_elevation_high</item>
+        <item name="cardCornerRadius">@dimen/card_corner_radius_large</item>
+        <item name="android:layout_marginVertical">@dimen/margin_small</item>
+        <item name="android:layout_marginHorizontal">@dimen/margin_medium</item>
+    </style>
+    <style name="DinosaurCard.Period" parent="DinosaurCard">
+        <item name="android:layout_marginVertical">6dp</item>
+        <item name="android:layout_marginHorizontal">@dimen/margin_medium</item>
     </style>
     <style name="DinosaurText">
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:textColor">@color/text_primary</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
     </style>
-    <style name="DinosaurText.DinosaurInfo" parent="DinosaurText">
-        <item name="android:textSize">16sp</item>
+    <style name="DinosaurText.CreatureDescription" parent="DinosaurText">
+        <item name="android:textSize">@dimen/text_size_small</item>
         <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:lineHeight">16sp</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">end</item>
     </style>
-    <style name="DinosaurText.DinosaurName" parent="DinosaurText">
-        <item name="android:textSize">20sp</item>
+    <style name="DinosaurText.CreatureInfo" parent="DinosaurText">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:lineHeight">16sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="DinosaurText.CreatureName" parent="DinosaurText">
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:lineHeight">22sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
     </style>
+    <style name="DinosaurText.CreatureScientific" parent="DinosaurText">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:lineHeight">18sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="DinosaurText.DialogContent" parent="DinosaurText">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:lineHeight">20sp</item>
+    </style>
+    <style name="DinosaurText.DialogTitle" parent="DinosaurText">
+        <item name="android:textSize">@dimen/text_size_xxlarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:lineHeight">26sp</item>
+    </style>
+    <style name="DinosaurText.DinosaurInfo" parent="DinosaurText.CreatureInfo"/>
+    <style name="DinosaurText.DinosaurName" parent="DinosaurText.CreatureName"/>
     <style name="DinosaurText.EraDescription" parent="DinosaurText">
-        <item name="android:textSize">14sp</item>
-        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:lineHeight">18sp</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">end</item>
     </style>
     <style name="DinosaurText.EraTitle" parent="DinosaurText">
-        <item name="android:textSize">24sp</item>
+        <item name="android:textSize">@dimen/text_size_xxlarge</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:lineHeight">26sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="DinosaurText.PeriodInfo" parent="DinosaurText">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:lineHeight">16sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="DinosaurText.PeriodTitle" parent="DinosaurText">
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:lineHeight">22sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
     </style>
     <style name="DinosaurText.Subtitle" parent="DinosaurText">
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
         <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:lineHeight">24sp</item>
+    </style>
+    <style name="DinosaurText.Tag" parent="DinosaurText">
+        <item name="android:textSize">@dimen/text_size_micro</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
     </style>
     <style name="DinosaurText.Title" parent="DinosaurText">
-        <item name="android:textSize">28sp</item>
+        <item name="android:textSize">@dimen/text_size_headline</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/text_on_primary</item>
+        <item name="android:lineHeight">34sp</item>
     </style>
     <style name="DinosaurTheme" parent="Theme.Material3.DayNight">
         <item name="colorPrimary">@color/primary_green</item>

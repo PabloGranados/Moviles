@@ -15,16 +15,21 @@
     <color name="accent_orange_light">#FFB300</color>
     
     <!-- Colores de superficie -->
-    <color name="surface_light">#F5F5DC</color>
+    <color name="surface_light">#FAFAFA</color>
+    <color name="surface_medium">#F5F5F5</color>
     <color name="surface_dark">#2E2E2E</color>
     <color name="background_gradient_start">#1B5E20</color>
     <color name="background_gradient_end">#2E7D32</color>
+    <color name="card_background_tinted">#F8F8F8</color>
     
     <!-- Colores de texto -->
     <color name="text_primary">#212121</color>
-    <color name="text_secondary">#757575</color>
+    <color name="text_secondary">#616161</color>
     <color name="text_on_primary">#FFFFFF</color>
     <color name="text_on_surface">#000000</color>
+    <color name="text_high_contrast">#000000</color>
+    <color name="text_on_dark">#FFFFFF</color>
+    <color name="text_on_light">#212121</color>
     
     <!-- Colores específicos por era -->
     <!-- Mesozoica -->
@@ -45,7 +50,9 @@
     <!-- Estados de UI -->
     <color name="ripple_effect">#80FFFFFF</color>
     <color name="card_background">#FFFFFF</color>
+    <color name="card_background_elevated">#FEFEFE</color>
     <color name="card_shadow">#40000000</color>
+    <color name="border_subtle">#E0E0E0</color>
     
     <!-- Gradientes -->
     <color name="gradient_overlay_start">#80000000</color>

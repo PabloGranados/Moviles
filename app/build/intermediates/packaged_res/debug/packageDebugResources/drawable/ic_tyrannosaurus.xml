@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    
+    <!-- Fondo circular -->
+    <circle
+        android:fillColor="@color/mesozoic_primary"
+        android:centerX="50"
+        android:centerY="50"
+        android:radius="45dp"/>
+    
+    <!-- Sombra interior -->
+    <circle
+        android:fillColor="@color/mesozoic_secondary"
+        android:centerX="50"
+        android:centerY="50"
+        android:radius="40dp"/>
+    
+    <!-- Cuerpo masivo de T-Rex -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M25,55 Q50,40 75,55 Q50,70 25,55 Z"/>
+    
+    <!-- Cuello corto y robusto -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M70,55 Q80,45 85,40 Q87,38 89,40 Q91,45 81,55 Q75,57 70,55 Z"/>
+    
+    <!-- Cabeza masiva con mandíbulas -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M83,40 Q92,35 95,42 Q92,48 83,45 Q83,40 83,40 Z"/>
+    
+    <!-- Dientes -->
+    <path
+        android:fillColor="@color/mesozoic_primary"
+        android:pathData="M88,38 L90,42 L88,42 Z"/>
+    <path
+        android:fillColor="@color/mesozoic_primary"
+        android:pathData="M91,38 L93,42 L91,42 Z"/>
+    
+    <!-- Cola larga para equilibrio -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M25,55 Q15,58 8,70 Q6,72 8,74 Q15,62 25,59 Z"/>
+    
+    <!-- Patas poderosas -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M45,55 L48,80 L45,80 L45,55 Z"/>
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M55,55 L58,80 L55,80 L55,55 Z"/>
+    
+    <!-- Brazos pequeños característicos -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M65,50 Q68,48 67,52 Q65,51 65,50 Z"/>
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M65,53 Q68,51 67,55 Q65,54 65,53 Z"/>
+    
+    <!-- Ojo feroz -->
+    <circle
+        android:fillColor="@color/mesozoic_primary"
+        android:centerX="87"
+        android:centerY="41"
+        android:radius="2dp"/>
+        
+</vector>

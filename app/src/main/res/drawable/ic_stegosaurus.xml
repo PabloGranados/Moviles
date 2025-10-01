@@ -7,9 +7,9 @@
     <!-- Fondo -->
     <circle
         android:fillColor="@color/mesozoic_secondary"
-        android:cx="50"
-        android:cy="50"
-        android:r="40"/>
+        android:centerX="50"
+        android:centerY="50"
+        android:radius="40dp"/>
     <!-- Stegosaurus -->
     <path
         android:fillColor="@color/text_on_primary"

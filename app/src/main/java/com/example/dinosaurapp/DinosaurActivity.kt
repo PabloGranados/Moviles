@@ -121,7 +121,21 @@ class DinosaurActivity : AppCompatActivity() {
             else -> "Período fascinante lleno de criaturas increíbles"
         }
         
-        Toast.makeText(this, quickInfo, Toast.LENGTH_LONG).show()
+        // Crear diálogo personalizado en lugar de Toast
+        val dialogBuilder = android.app.AlertDialog.Builder(this)
+        dialogBuilder.setTitle("Información del Período")
+        dialogBuilder.setMessage(quickInfo)
+        dialogBuilder.setPositiveButton("Entendido") { dialog, _ ->
+            dialog.dismiss()
+        }
+        dialogBuilder.setNeutralButton("Explorar más") { dialog, _ ->
+            // Cambiar al tab de información
+            viewPager.currentItem = 2
+            dialog.dismiss()
+        }
+        
+        val dialog = dialogBuilder.create()
+        dialog.show()
     }
 
     private fun getPeriodBackgroundResource(periodId: String): Int {

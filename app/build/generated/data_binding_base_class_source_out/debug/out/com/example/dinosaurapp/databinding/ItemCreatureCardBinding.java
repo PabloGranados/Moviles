@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -27,6 +28,9 @@ public final class ItemCreatureCardBinding implements ViewBinding {
   public final ImageView ivDetailArrow;
 
   @NonNull
+  public final LinearLayout textContent;
+
+  @NonNull
   public final TextView tvCreatureDescription;
 
   @NonNull
@@ -45,13 +49,14 @@ public final class ItemCreatureCardBinding implements ViewBinding {
   public final TextView tvSizeTag;
 
   private ItemCreatureCardBinding(@NonNull CardView rootView, @NonNull ImageView ivCreatureImage,
-      @NonNull ImageView ivDetailArrow, @NonNull TextView tvCreatureDescription,
-      @NonNull TextView tvCreatureDiet, @NonNull TextView tvCreatureName,
-      @NonNull TextView tvCreatureScientificName, @NonNull TextView tvEraTag,
-      @NonNull TextView tvSizeTag) {
+      @NonNull ImageView ivDetailArrow, @NonNull LinearLayout textContent,
+      @NonNull TextView tvCreatureDescription, @NonNull TextView tvCreatureDiet,
+      @NonNull TextView tvCreatureName, @NonNull TextView tvCreatureScientificName,
+      @NonNull TextView tvEraTag, @NonNull TextView tvSizeTag) {
     this.rootView = rootView;
     this.ivCreatureImage = ivCreatureImage;
     this.ivDetailArrow = ivDetailArrow;
+    this.textContent = textContent;
     this.tvCreatureDescription = tvCreatureDescription;
     this.tvCreatureDiet = tvCreatureDiet;
     this.tvCreatureName = tvCreatureName;
@@ -99,6 +104,12 @@ public final class ItemCreatureCardBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textContent;
+      LinearLayout textContent = ViewBindings.findChildViewById(rootView, id);
+      if (textContent == null) {
+        break missingId;
+      }
+
       id = R.id.tvCreatureDescription;
       TextView tvCreatureDescription = ViewBindings.findChildViewById(rootView, id);
       if (tvCreatureDescription == null) {
@@ -136,8 +147,8 @@ public final class ItemCreatureCardBinding implements ViewBinding {
       }
 
       return new ItemCreatureCardBinding((CardView) rootView, ivCreatureImage, ivDetailArrow,
-          tvCreatureDescription, tvCreatureDiet, tvCreatureName, tvCreatureScientificName, tvEraTag,
-          tvSizeTag);
+          textContent, tvCreatureDescription, tvCreatureDiet, tvCreatureName,
+          tvCreatureScientificName, tvEraTag, tvSizeTag);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

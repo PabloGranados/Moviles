@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Espaciado general -->
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    
+    <dimen name="padding_tiny">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_xlarge">32dp</dimen>
+    
+    <!-- Espaciado específico de cards -->
+    <dimen name="card_padding_standard">@dimen/padding_medium</dimen>
+    <dimen name="card_padding_large">@dimen/padding_large</dimen>
+    <dimen name="card_content_spacing">@dimen/margin_small</dimen>
+    
+    <!-- Tamaños de texto -->
+    <dimen name="text_size_micro">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="text_size_xxlarge">20sp</dimen>
+    <dimen name="text_size_title">24sp</dimen>
+    <dimen name="text_size_headline">28sp</dimen>
+    
+    <!-- Elevaciones de cards -->
+    <dimen name="card_elevation_normal">8dp</dimen>
+    <dimen name="card_elevation_high">12dp</dimen>
+    
+    <!-- Radios de esquinas -->
+    <dimen name="card_corner_radius_small">12dp</dimen>
+    <dimen name="card_corner_radius_medium">16dp</dimen>
+    <dimen name="card_corner_radius_large">20dp</dimen>
+    
+    <!-- Tamaños de imágenes -->
+    <dimen name="image_size_tiny">32dp</dimen>
+    <dimen name="image_size_small">48dp</dimen>
+    <dimen name="image_size_medium">64dp</dimen>
+    <dimen name="image_size_large">80dp</dimen>
+    <dimen name="image_size_xlarge">100dp</dimen>
+    
+    <!-- Tamaños de iconos -->
+    <dimen name="icon_size_tiny">16dp</dimen>
+    <dimen name="icon_size_small">24dp</dimen>
+    <dimen name="icon_size_medium">32dp</dimen>
+    <dimen name="icon_size_large">48dp</dimen>
+    
+    <!-- Límites de líneas de texto - Ya no se usan, ahora están en styles -->
+    <integer name="max_lines_title">2</integer>
+    <integer name="max_lines_description">3</integer>
+    <integer name="max_lines_detail">4</integer>
+    
+    <!-- Anchos específicos -->
+    <dimen name="interest_point_card_width">120dp</dimen>
+    <dimen name="timeline_indicator_width">6dp</dimen>
+    
+    <!-- Alturas mínimas para evitar texto cortado -->
+    <dimen name="min_touch_target">48dp</dimen>
+    <dimen name="card_min_height">80dp</dimen>
+    
+    <!-- Espaciado entre elementos en cards -->
+    <dimen name="text_spacing_tiny">2dp</dimen>
+    <dimen name="text_spacing_small">4dp</dimen>
+    <dimen name="text_spacing_medium">8dp</dimen>
+    <dimen name="text_spacing_large">12dp</dimen>
+</resources>

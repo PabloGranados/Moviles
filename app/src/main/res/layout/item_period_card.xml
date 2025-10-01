@@ -4,21 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    style="@style/DinosaurCard"
-    android:layout_marginVertical="6dp"
-    android:clickable="true"
-    android:focusable="true"
-    android:foreground="?android:attr/selectableItemBackground">
+    style="@style/DinosaurCard.Period">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:padding="@dimen/card_padding_standard"
+        android:minHeight="@dimen/card_min_height">
 
         <!-- Timeline indicator -->
         <View
             android:id="@+id/timelineIndicator"
-            android:layout_width="6dp"
+            android:layout_width="@dimen/timeline_indicator_width"
             android:layout_height="0dp"
             android:background="@color/accent_orange"
             app:layout_constraintStart_toStartOf="parent"
@@ -28,10 +25,12 @@
         <!-- Icono del período -->
         <ImageView
             android:id="@+id/ivPeriodIcon"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginStart="16dp"
-            android:scaleType="centerCrop"
+            android:layout_width="@dimen/image_size_medium"
+            android:layout_height="@dimen/image_size_medium"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:scaleType="centerInside"
+            android:padding="@dimen/padding_small"
+            android:background="@drawable/creature_image_background"
             app:layout_constraintStart_toEndOf="@id/timelineIndicator"
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@drawable/ic_triassic_period"
@@ -42,8 +41,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_small"
             app:layout_constraintStart_toEndOf="@id/ivPeriodIcon"
             app:layout_constraintEnd_toStartOf="@id/ivExploreArrow"
             app:layout_constraintTop_toTopOf="@id/ivPeriodIcon"
@@ -51,35 +50,37 @@
 
             <TextView
                 android:id="@+id/tvPeriodName"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/DinosaurText.DinosaurName"
+                style="@style/DinosaurText.PeriodTitle"
                 tools:text="Triásico" />
 
             <TextView
                 android:id="@+id/tvPeriodTime"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/DinosaurText.DinosaurInfo"
-                android:layout_marginTop="2dp"
+                style="@style/DinosaurText.PeriodInfo"
+                android:layout_marginTop="@dimen/text_spacing_tiny"
+                android:textStyle="bold"
                 tools:text="252 - 201 Ma" />
 
             <TextView
                 android:id="@+id/tvPeriodDescription"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/DinosaurText.DinosaurInfo"
-                android:layout_marginTop="4dp"
-                android:textSize="12sp"
-                tools:text="Los primeros dinosaurios" />
+                style="@style/DinosaurText.PeriodInfo"
+                android:layout_marginTop="@dimen/text_spacing_small"
+                android:maxLines="3"
+                android:ellipsize="end"
+                tools:text="Los primeros dinosaurios aparecen en este período" />
 
         </LinearLayout>
 
         <!-- Flecha de exploración -->
         <ImageView
             android:id="@+id/ivExploreArrow"
-            android:layout_width="28dp"
-            android:layout_height="28dp"
+            android:layout_width="@dimen/icon_size_medium"
+            android:layout_height="@dimen/icon_size_medium"
             android:src="@drawable/ic_explore"
             app:tint="@color/primary_green"
             app:layout_constraintEnd_toEndOf="parent"
@@ -93,22 +94,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/text_spacing_medium"
             app:layout_constraintStart_toStartOf="@id/ivPeriodIcon"
             app:layout_constraintTop_toBottomOf="@id/ivPeriodIcon">
 
             <ImageView
-                android:layout_width="12dp"
-                android:layout_height="12dp"
+                android:layout_width="@dimen/icon_size_tiny"
+                android:layout_height="@dimen/icon_size_tiny"
                 android:src="@drawable/ic_fossil_site"
                 app:tint="@color/secondary_brown"
-                android:layout_marginEnd="4dp" />
+                android:layout_marginEnd="@dimen/margin_tiny" />
 
             <TextView
                 android:id="@+id/tvInterestCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="10sp"
+                style="@style/DinosaurText.Tag"
                 android:textColor="@color/text_secondary"
                 tools:text="3 puntos" />
 

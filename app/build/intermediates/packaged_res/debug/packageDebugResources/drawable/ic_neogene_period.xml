@@ -7,9 +7,9 @@
     <!-- Fondo -->
     <circle
         android:fillColor="@color/cenozoic_secondary"
-        android:cx="30"
-        android:cy="30"
-        android:r="25"/>
+        android:centerX="30"
+        android:centerY="30"
+        android:radius="25dp"/>
     <!-- Mamífero evolucionado -->
     <path
         android:fillColor="@color/text_on_primary"
