@@ -20,6 +20,10 @@
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\ic_stegosaurus.xml"
     },
     {
+        "merged": "com.example.dinosaurapp-debug-49:/layout_item_period_card.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/layout/item_period_card.xml"
+    },
+    {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_gradient_overlay.xml.flat",
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\gradient_overlay.xml"
     },
@@ -32,12 +36,12 @@
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\anim\\slide_out_right.xml"
     },
     {
-        "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_creature_allosaurus.jpg.flat",
-        "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\creature_allosaurus.jpg"
-    },
-    {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_creature_australopithecus.jpg.flat",
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\creature_australopithecus.jpg"
+    },
+    {
+        "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_creature_allosaurus.jpg.flat",
+        "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\creature_allosaurus.jpg"
     },
     {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_main_background_gradient.xml.flat",
@@ -88,10 +92,6 @@
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.dinosaurapp-debug-49:/layout_item_exploration_site.xml.flat",
-        "source": "com.example.dinosaurapp-main-51:/layout/item_exploration_site.xml"
-    },
-    {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_creature_dunkleosteus.jpg.flat",
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\creature_dunkleosteus.jpg"
     },
@@ -100,24 +100,28 @@
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\ic_time_portal.xml"
     },
     {
-        "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_tag_background.xml.flat",
-        "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\tag_background.xml"
+        "merged": "com.example.dinosaurapp-debug-49:/layout_activity_dinosaur.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/layout/activity_dinosaur.xml"
     },
     {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_ic_fossil_site.xml.flat",
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\ic_fossil_site.xml"
     },
     {
+        "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_tag_background.xml.flat",
+        "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\tag_background.xml"
+    },
+    {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\mipmap-hdpi_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\mipmap-hdpi\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\mipmap-xhdpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\mipmap-xhdpi\\ic_launcher_round.xml"
-    },
-    {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_ic_triceratops.xml.flat",
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\ic_triceratops.xml"
+    },
+    {
+        "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\mipmap-xhdpi\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\layout_fragment_interest_points.xml.flat",
@@ -132,20 +136,20 @@
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\ic_carboniferous_period.xml"
     },
     {
-        "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_ic_info.xml.flat",
-        "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\ic_info.xml"
-    },
-    {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\mipmap-xxxhdpi_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\mipmap-xxxhdpi\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\layout_item_interest_point.xml.flat",
-        "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\layout\\item_interest_point.xml"
+        "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_ic_info.xml.flat",
+        "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\ic_info.xml"
     },
     {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_creature_hylonomus.jpg.flat",
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\creature_hylonomus.jpg"
+    },
+    {
+        "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\layout_item_interest_point.xml.flat",
+        "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\layout\\item_interest_point.xml"
     },
     {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\mipmap-xhdpi_ic_launcher.xml.flat",
@@ -174,6 +178,10 @@
     {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_ic_cenozoic_era.xml.flat",
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\ic_cenozoic_era.xml"
+    },
+    {
+        "merged": "com.example.dinosaurapp-debug-49:/layout_fragment_period_info.xml.flat",
+        "source": "com.example.dinosaurapp-main-51:/layout/fragment_period_info.xml"
     },
     {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\anim_scale_fade_in.xml.flat",
@@ -268,10 +276,6 @@
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\anim\\slide_in_right.xml"
     },
     {
-        "merged": "com.example.dinosaurapp-debug-49:/layout_fragment_explore.xml.flat",
-        "source": "com.example.dinosaurapp-main-51:/layout/fragment_explore.xml"
-    },
-    {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_creature_coelophysis.jpg.flat",
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\creature_coelophysis.jpg"
     },
@@ -320,12 +324,12 @@
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\creature_arthropleura.jpg"
     },
     {
-        "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_exploration_map_background.xml.flat",
-        "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\exploration_map_background.xml"
-    },
-    {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\layout_fragment_period_info.xml.flat",
         "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\layout\\fragment_period_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_exploration_map_background.xml.flat",
+        "source": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-main-51:\\drawable\\exploration_map_background.xml"
     },
     {
         "merged": "C:\\Users\\palol\\.gradle\\daemon\\8.13\\com.example.dinosaurapp-debug-49:\\drawable_creature_plateosaurus.jpg.flat",

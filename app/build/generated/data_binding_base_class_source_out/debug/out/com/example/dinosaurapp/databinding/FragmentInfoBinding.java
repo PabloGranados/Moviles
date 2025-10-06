@@ -4,11 +4,10 @@ package com.example.dinosaurapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.dinosaurapp.R;
@@ -18,10 +17,7 @@ import java.lang.String;
 
 public final class FragmentInfoBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
-
-  @NonNull
-  public final ImageView ivInfoIcon;
+  private final ScrollView rootView;
 
   @NonNull
   public final TextView tvInfoDescription;
@@ -29,17 +25,16 @@ public final class FragmentInfoBinding implements ViewBinding {
   @NonNull
   public final TextView tvInfoTitle;
 
-  private FragmentInfoBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView ivInfoIcon,
-      @NonNull TextView tvInfoDescription, @NonNull TextView tvInfoTitle) {
+  private FragmentInfoBinding(@NonNull ScrollView rootView, @NonNull TextView tvInfoDescription,
+      @NonNull TextView tvInfoTitle) {
     this.rootView = rootView;
-    this.ivInfoIcon = ivInfoIcon;
     this.tvInfoDescription = tvInfoDescription;
     this.tvInfoTitle = tvInfoTitle;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -64,12 +59,6 @@ public final class FragmentInfoBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.ivInfoIcon;
-      ImageView ivInfoIcon = ViewBindings.findChildViewById(rootView, id);
-      if (ivInfoIcon == null) {
-        break missingId;
-      }
-
       id = R.id.tvInfoDescription;
       TextView tvInfoDescription = ViewBindings.findChildViewById(rootView, id);
       if (tvInfoDescription == null) {
@@ -82,8 +71,7 @@ public final class FragmentInfoBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentInfoBinding((ConstraintLayout) rootView, ivInfoIcon, tvInfoDescription,
-          tvInfoTitle);
+      return new FragmentInfoBinding((ScrollView) rootView, tvInfoDescription, tvInfoTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

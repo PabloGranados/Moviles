@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    <!-- Fondo -->
+    <circle
+        android:fillColor="@color/paleozoic_secondary"
+        android:centerX="30"
+        android:centerY="30"
+        android:radius="25dp"/>
+    <!-- Insecto gigante -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M20,30 Q25,28 30,30 Q35,28 40,30 Q35,32 30,30 Q25,32 20,30 Z"/>
+    <!-- Alas -->
+    <path
+        android:fillColor="@color/paleozoic_accent"
+        android:pathData="M25,25 Q30,20 35,25"/>
+    <path
+        android:fillColor="@color/paleozoic_accent"
+        android:pathData="M25,35 Q30,40 35,35"/>
+</vector>

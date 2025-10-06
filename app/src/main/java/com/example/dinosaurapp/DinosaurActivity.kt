@@ -26,7 +26,6 @@ class DinosaurActivity : AppCompatActivity() {
     private lateinit var ivPeriodBackground: ImageView
     private lateinit var tabLayout: TabLayout
     private lateinit var viewPager: ViewPager2
-    private lateinit var fabQuickInfo: FloatingActionButton
 
     private var periodId: String = ""
     private var periodName: String = ""
@@ -40,7 +39,6 @@ class DinosaurActivity : AppCompatActivity() {
         initializeViews()
         setupToolbar()
         setupViewPager()
-        setupFloatingActionButton()
         applyEnterAnimation()
     }
 
@@ -56,7 +54,6 @@ class DinosaurActivity : AppCompatActivity() {
         ivPeriodBackground = findViewById(R.id.ivPeriodBackground)
         tabLayout = findViewById(R.id.tabLayout)
         viewPager = findViewById(R.id.viewPager)
-        fabQuickInfo = findViewById(R.id.fabQuickInfo)
     }
 
     private fun setupToolbar() {
@@ -75,6 +72,9 @@ class DinosaurActivity : AppCompatActivity() {
         val adapter = DinosaurPagerAdapter(this, periodId)
         viewPager.adapter = adapter
         
+        // Desactivar el offscreen page limit para mejor rendimiento con contenido dinámico
+        viewPager.offscreenPageLimit = 1
+        
         // Conectar TabLayout con ViewPager2
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->
             tab.text = when (position) {
@@ -90,16 +90,7 @@ class DinosaurActivity : AppCompatActivity() {
         viewPager.startAnimation(slideInAnimation)
     }
 
-    private fun setupFloatingActionButton() {
-        fabQuickInfo.setOnClickListener {
-            // Animación del FAB
-            val discoveryAnimation = AnimationUtils.loadAnimation(this, R.anim.time_portal_effect)
-            fabQuickInfo.startAnimation(discoveryAnimation)
-            
-            // Mostrar información rápida del período
-            showQuickPeriodInfo()
-        }
-    }
+
 
     private fun applyEnterAnimation() {
         val slideInAnimation = AnimationUtils.loadAnimation(this, R.anim.slide_in_right)
@@ -107,36 +98,7 @@ class DinosaurActivity : AppCompatActivity() {
             ?.startAnimation(slideInAnimation)
     }
 
-    private fun showQuickPeriodInfo() {
-        val quickInfo = when (periodId) {
-            "triassic" -> "Período Triásico: Primeros dinosaurios aparecen tras la extinción del Pérmico"
-            "jurassic" -> "Período Jurásico: Era dorada de los saurópodos gigantes de cuello largo"
-            "cretaceous" -> "Período Cretácico: Dominan los depredadores masivos como T-Rex"
-            "devonian" -> "Período Devónico: Era de los peces, primeros vertebrados terrestres"
-            "carboniferous" -> "Período Carbonífero: Bosques gigantes e insectos masivos"
-            "permian" -> "Período Pérmico: Superdepredadores como Dimetrodon"
-            "paleogene" -> "Período Paleógeno: Renacimiento de la vida tras extinción K-Pg"
-            "neogene" -> "Período Neógeno: Expansión y diversificación de mamíferos"
-            "quaternary" -> "Período Cuaternario: Megafauna de la edad de hielo y evolución humana"
-            else -> "Período fascinante lleno de criaturas increíbles"
-        }
-        
-        // Crear diálogo personalizado en lugar de Toast
-        val dialogBuilder = android.app.AlertDialog.Builder(this)
-        dialogBuilder.setTitle("Información del Período")
-        dialogBuilder.setMessage(quickInfo)
-        dialogBuilder.setPositiveButton("Entendido") { dialog, _ ->
-            dialog.dismiss()
-        }
-        dialogBuilder.setNeutralButton("Explorar más") { dialog, _ ->
-            // Cambiar al tab de información
-            viewPager.currentItem = 2
-            dialog.dismiss()
-        }
-        
-        val dialog = dialogBuilder.create()
-        dialog.show()
-    }
+
 
     private fun getPeriodBackgroundResource(periodId: String): Int {
         return when (periodId) {

@@ -1,5 +1,6 @@
 package com.example.app1.ui
 
+import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -31,6 +32,9 @@ class InformacionFragment : Fragment() {
     private var ivIcono1: ImageView? = null
     private var ivIcono2: ImageView? = null
     private var ivIcono3: ImageView? = null
+    private var tvInfoDispositivo: TextView? = null
+    private var tvVersionAndroid: TextView? = null
+    private var tvMemoria: TextView? = null
 
     private var contadorVisitas = 0
     private var progresoActual = 0
@@ -54,6 +58,7 @@ class InformacionFragment : Fragment() {
             setupListeners()
             setupImageViews()
             actualizarInformacion()
+            actualizarInfoDispositivo()
             
             // Incrementar contador de visitas
             contadorVisitas++
@@ -76,6 +81,9 @@ class InformacionFragment : Fragment() {
         ivIcono1 = view.findViewById(R.id.ivIcono1)
         ivIcono2 = view.findViewById(R.id.ivIcono2)
         ivIcono3 = view.findViewById(R.id.ivIcono3)
+        tvInfoDispositivo = view.findViewById(R.id.tvInfoDispositivo)
+        tvVersionAndroid = view.findViewById(R.id.tvVersionAndroid)
+        tvMemoria = view.findViewById(R.id.tvMemoria)
     }
 
     private fun setupListeners() {
@@ -89,6 +97,7 @@ class InformacionFragment : Fragment() {
 
         btnActualizar?.setOnClickListener {
             actualizarInformacion()
+            actualizarInfoDispositivo()
             contadorVisitas++
             updateContadorVisitas()
         }
@@ -100,7 +109,7 @@ class InformacionFragment : Fragment() {
         }
 
         ivIcono2?.setOnClickListener {
-            tvEstadoConexion?.text = "📡 Estado: ¡Favorito marcado! ⭐"
+            tvEstadoConexion?.text = "📡 Estado: ¡Galería activada! 🖼️"
         }
 
         ivIcono3?.setOnClickListener {
@@ -181,6 +190,25 @@ class InformacionFragment : Fragment() {
         tvContadorVisitas?.text = "👁️ Veces que has visitado esta pantalla: $contadorVisitas"
     }
 
+    private fun actualizarInfoDispositivo() {
+        try {
+            // Información del dispositivo
+            val modelo = "${Build.MANUFACTURER} ${Build.MODEL}"
+            tvInfoDispositivo?.text = "📋 Modelo: $modelo"
+            
+            // Versión de Android
+            val versionAndroid = "Android ${Build.VERSION.RELEASE} (API ${Build.VERSION.SDK_INT})"
+            tvVersionAndroid?.text = "🤖 Versión: $versionAndroid"
+            
+            // Información de memoria (simulada para este ejemplo)
+            val memoryInfo = arrayOf("2GB disponible", "1.5GB disponible", "3GB disponible").random()
+            tvMemoria?.text = "💾 Memoria RAM: $memoryInfo"
+            
+        } catch (e: Exception) {
+            Toast.makeText(context, "Error al obtener info del dispositivo: ${e.message}", Toast.LENGTH_SHORT).show()
+        }
+    }
+
     override fun onDestroyView() {
         super.onDestroyView()
         detenerProgreso()
@@ -198,5 +226,8 @@ class InformacionFragment : Fragment() {
         ivIcono1 = null
         ivIcono2 = null
         ivIcono3 = null
+        tvInfoDispositivo = null
+        tvVersionAndroid = null
+        tvMemoria = null
     }
 }

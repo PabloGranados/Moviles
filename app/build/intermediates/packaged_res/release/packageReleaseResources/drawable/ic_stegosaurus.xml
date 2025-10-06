@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Fondo -->
+    <circle
+        android:fillColor="@color/mesozoic_secondary"
+        android:centerX="50"
+        android:centerY="50"
+        android:radius="40dp"/>
+    <!-- Stegosaurus -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M25,55 Q35,50 50,55 Q65,50 75,55 Q65,60 50,55 Q35,60 25,55 Z"/>
+    <!-- Placas dorsales -->
+    <path
+        android:fillColor="@color/mesozoic_accent"
+        android:pathData="M35,50 L40,35 L45,50"/>
+    <path
+        android:fillColor="@color/mesozoic_accent"
+        android:pathData="M45,50 L50,30 L55,50"/>
+    <path
+        android:fillColor="@color/mesozoic_accent"
+        android:pathData="M55,50 L60,35 L65,50"/>
+    <!-- Púas de la cola -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M25,55 L20,45 L15,55"/>
+</vector>

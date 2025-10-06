@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/DinosaurCard.Creature">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/card_padding_standard"
+        android:minHeight="@dimen/card_min_height">
+
+        <!-- Imagen de la criatura -->
+        <ImageView
+            android:id="@+id/ivCreatureImage"
+            android:layout_width="@dimen/image_size_xlarge"
+            android:layout_height="@dimen/image_size_xlarge"
+            android:scaleType="centerInside"
+            android:padding="@dimen/padding_small"
+            android:background="@drawable/creature_image_background"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_triceratops"
+            android:contentDescription="Creature image" />
+
+        <!-- Contenido de texto -->
+        <LinearLayout
+            android:id="@+id/textContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_small"
+            app:layout_constraintStart_toEndOf="@id/ivCreatureImage"
+            app:layout_constraintEnd_toStartOf="@id/ivDetailArrow"
+            app:layout_constraintTop_toTopOf="@id/ivCreatureImage">
+
+            <TextView
+                android:id="@+id/tvCreatureName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DinosaurText.CreatureName"
+                tools:text="Triceratops" />
+
+            <TextView
+                android:id="@+id/tvCreatureScientificName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DinosaurText.CreatureScientific"
+                android:layout_marginTop="@dimen/text_spacing_tiny"
+                tools:text="Triceratops horridus" />
+
+            <TextView
+                android:id="@+id/tvCreatureDiet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DinosaurText.CreatureInfo"
+                android:layout_marginTop="@dimen/text_spacing_small"
+                tools:text="Herbívoro • 9m de largo" />
+
+            <TextView
+                android:id="@+id/tvCreatureDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DinosaurText.CreatureDescription"
+                android:layout_marginTop="@dimen/text_spacing_small"
+                tools:text="Dinosaurio con tres cuernos característicos y una gran cresta ósea..." />
+
+        </LinearLayout>
+
+        <!-- Flecha de detalles -->
+        <ImageView
+            android:id="@+id/ivDetailArrow"
+            android:layout_width="@dimen/icon_size_small"
+            android:layout_height="@dimen/icon_size_small"
+            android:src="@drawable/ic_arrow_forward"
+            app:tint="@color/primary_green"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="View details" />
+
+        <!-- Etiquetas de características -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/text_spacing_medium"
+            app:layout_constraintStart_toStartOf="@id/ivCreatureImage"
+            app:layout_constraintEnd_toStartOf="@id/ivDetailArrow"
+            app:layout_constraintTop_toBottomOf="@id/ivCreatureImage">
+
+            <TextView
+                android:id="@+id/tvEraTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tag_background"
+                android:text="Cretácico"
+                style="@style/DinosaurText.Tag"
+                android:paddingHorizontal="@dimen/padding_small"
+                android:paddingVertical="@dimen/padding_tiny"
+                android:layout_marginEnd="@dimen/margin_small" />
+
+            <TextView
+                android:id="@+id/tvSizeTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tag_background"
+                android:text="Grande"
+                style="@style/DinosaurText.Tag"
+                android:paddingHorizontal="@dimen/padding_small"
+                android:paddingVertical="@dimen/padding_tiny" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

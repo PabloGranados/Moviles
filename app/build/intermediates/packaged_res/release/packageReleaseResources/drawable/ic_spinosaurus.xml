@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    
+    <!-- Fondo circular -->
+    <circle
+        android:fillColor="@color/mesozoic_primary"
+        android:centerX="50"
+        android:centerY="50"
+        android:radius="45dp"/>
+    
+    <!-- Sombra interior -->
+    <circle
+        android:fillColor="@color/mesozoic_secondary"
+        android:centerX="50"
+        android:centerY="50"
+        android:radius="40dp"/>
+    
+    <!-- Cuerpo con vela dorsal característica -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M25,60 Q50,45 75,60 Q50,75 25,60 Z"/>
+    
+    <!-- Vela dorsal masiva -->
+    <path
+        android:fillColor="@color/mesozoic_accent"
+        android:pathData="M30,45 Q50,20 70,45 Q50,50 30,45 Z"/>
+    
+    <!-- Espinas de la vela -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M35,45 Q35,25 37,45 Z"/>
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M45,45 Q45,22 47,45 Z"/>
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M55,45 Q55,22 57,45 Z"/>
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M65,45 Q65,25 67,45 Z"/>
+    
+    <!-- Cuello y cabeza alargada -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M70,60 Q80,45 85,30 Q87,28 89,30 Q91,45 81,60 Q75,62 70,60 Z"/>
+    
+    <!-- Hocico alargado de cocodrilo -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M83,30 Q92,28 95,32 Q92,36 83,34 Q83,30 83,30 Z"/>
+    
+    <!-- Dientes cónicos -->
+    <path
+        android:fillColor="@color/mesozoic_primary"
+        android:pathData="M87,30 L89,33 L87,33 Z"/>
+    <path
+        android:fillColor="@color/mesozoic_primary"
+        android:pathData="M90,30 L92,33 L90,33 Z"/>
+    
+    <!-- Cola larga -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M25,60 Q15,63 8,73 Q6,75 8,77 Q15,67 25,64 Z"/>
+    
+    <!-- Patas semiacuáticas -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M40,60 L43,78 L40,78 L40,60 Z"/>
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M60,60 L63,78 L60,78 L60,60 Z"/>
+    
+    <!-- Brazos con garras -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M65,55 Q70,52 68,58 Q65,56 65,55 Z"/>
+    
+    <!-- Ojo -->
+    <circle
+        android:fillColor="@color/mesozoic_primary"
+        android:centerX="87"
+        android:centerY="31"
+        android:radius="2dp"/>
+        
+</vector>

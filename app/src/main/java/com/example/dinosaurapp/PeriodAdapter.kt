@@ -20,7 +20,6 @@ class PeriodAdapter(
         private val periodName: TextView = itemView.findViewById(R.id.tvPeriodName)
         private val periodTime: TextView = itemView.findViewById(R.id.tvPeriodTime)
         private val periodDescription: TextView = itemView.findViewById(R.id.tvPeriodDescription)
-        private val interestCount: TextView = itemView.findViewById(R.id.tvInterestCount)
         private val timelineIndicator: View = itemView.findViewById(R.id.timelineIndicator)
 
         fun bind(period: Period, position: Int) {
@@ -28,7 +27,9 @@ class PeriodAdapter(
             periodName.text = period.name
             periodTime.text = period.timeRange
             periodDescription.text = period.description
-            interestCount.text = "${period.creatures.size} criaturas"
+            
+            // Asegurar que la descripción no se corte
+            periodDescription.maxLines = Int.MAX_VALUE
             
             // Alternar colores del timeline
             val colors = arrayOf(

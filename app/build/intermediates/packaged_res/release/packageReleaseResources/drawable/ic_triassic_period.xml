@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    <!-- Fondo -->
+    <circle
+        android:fillColor="@color/mesozoic_accent"
+        android:centerX="30"
+        android:centerY="30"
+        android:radius="25dp"/>
+    <!-- Dinosaurio pequeño -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M20,30 Q25,25 30,30 L35,30 Q40,25 45,30 L45,35 Q40,40 35,35 L30,35 Q25,40 20,35 Z"/>
+</vector>

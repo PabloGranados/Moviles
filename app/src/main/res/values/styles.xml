@@ -50,6 +50,32 @@
         <item name="android:lineHeight">24sp</item>
     </style>
 
+    <style name="DinosaurText.SectionTitle" parent="DinosaurText">
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:lineHeight">30sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="DinosaurText.CardTitle" parent="DinosaurText">
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="DinosaurText.Description" parent="DinosaurText">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:lineHeight">20sp</item>
+        <item name="android:maxLines">4</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
     <style name="DinosaurText.EraTitle" parent="DinosaurText">
         <item name="android:textSize">@dimen/text_size_xxlarge</item>
         <item name="android:textStyle">bold</item>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M54,54m-54,0a54,54 0,1 1,108 0a54,54 0,1 1,-108 0" />
+    
+    <!-- Dinosaur silhouette -->
+    <group android:scaleX="0.6" android:scaleY="0.6" android:pivotX="54" android:pivotY="54">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M45,25C47,23 50,23 52,25L54,27L56,25C58,23 61,23 63,25C65,27 65,30 63,32L61,34L63,36C65,38 65,41 63,43C61,45 58,45 56,43L54,41L52,43C50,45 47,45 45,43C43,41 43,38 45,36L47,34L45,32C43,30 43,27 45,25Z" />
+        
+        <!-- Head -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M25,35C25,30 29,26 34,26L44,26C49,26 53,30 53,35L53,45C53,50 49,54 44,54L34,54C29,54 25,50 25,45Z" />
+        
+        <!-- Body -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M45,40C45,35 49,31 54,31L74,31C79,31 83,35 83,40L83,60C83,65 79,69 74,69L54,69C49,69 45,65 45,60Z" />
+        
+        <!-- Tail -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M75,45C80,45 84,49 84,54C84,59 80,63 75,63L85,63C90,63 94,59 94,54C94,49 90,45 85,45Z" />
+        
+        <!-- Legs -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M50,65L50,75C50,77 52,79 54,79C56,79 58,77 58,75L58,65" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M65,65L65,75C65,77 67,79 69,79C71,79 73,77 73,75L73,65" />
+        
+        <!-- Eye -->
+        <circle
+            android:fillColor="#4CAF50"
+            android:centerX="38"
+            android:centerY="38"
+            android:radius="3dp" />
+    </group>
+</vector>

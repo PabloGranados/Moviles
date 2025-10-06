@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    
+    <!-- Fondo circular -->
+    <circle
+        android:fillColor="@color/mesozoic_primary"
+        android:centerX="50"
+        android:centerY="50"
+        android:radius="45dp"/>
+    
+    <!-- Sombra interior -->
+    <circle
+        android:fillColor="@color/mesozoic_secondary"
+        android:centerX="50"
+        android:centerY="50"
+        android:radius="40dp"/>
+    
+    <!-- Cuerpo principal -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M20,60 Q45,45 70,60 Q45,75 20,60 Z"/>
+    
+    <!-- Cabeza con cresta característica -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M50,45 Q65,33 80,45 Q65,57 50,45 Z"/>
+    
+    <!-- Cresta ósea grande -->
+    <path
+        android:fillColor="@color/mesozoic_accent"
+        android:pathData="M55,40 Q65,25 75,30 Q80,35 75,45 Q70,50 65,45 Q60,42 55,40 Z"/>
+    
+    <!-- Cuerno nasal central -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M72,45 Q75,35 78,45 Q75,47 72,45 Z"/>
+    
+    <!-- Cuernos frontales gemelos -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M60,38 Q62,28 65,38 Q62,40 60,38 Z"/>
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M68,38 Q70,28 73,38 Q70,40 68,38 Z"/>
+    
+    <!-- Patas robustas -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M35,60 L38,75 L35,75 L35,60 Z"/>
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M42,60 L46,75 L42,75 L42,60 Z"/>
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M50,60 L54,75 L50,75 L50,60 Z"/>
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M57,60 L61,75 L57,75 L57,60 Z"/>
+    
+    <!-- Cola corta -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M20,65 Q17,65 8,71 Q17,65 25,65 Z"/>
+    
+    <!-- Ojo -->
+    <circle
+        android:fillColor="@color/mesozoic_primary"
+        android:centerX="70"
+        android:centerY="42"
+        android:radius="2dp"/>
+        
+</vector>

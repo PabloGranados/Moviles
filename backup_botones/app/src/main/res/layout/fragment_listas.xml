@@ -119,4 +119,15 @@
 
     </LinearLayout>
 
+    <!-- Footer informativo -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✨ Esta pantalla demuestra listas interactivas de Android"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="?attr/colorOnSurfaceVariant" />
+
 </LinearLayout>

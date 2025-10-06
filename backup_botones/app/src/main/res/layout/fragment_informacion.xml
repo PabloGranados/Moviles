@@ -90,9 +90,9 @@
                 android:id="@+id/ivIcono2"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:src="@android:drawable/btn_star_big_on"
+                android:src="@android:drawable/ic_menu_gallery"
                 android:layout_margin="8dp"
-                android:contentDescription="Icono de estrella" />
+                android:contentDescription="Icono de galería" />
 
             <ImageView
                 android:id="@+id/ivIcono3"
@@ -226,7 +226,107 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="🔄 Actualizar Información"
-            android:layout_marginBottom="16dp" />
+            android:layout_marginBottom="24dp" />
+
+        <!-- Información adicional -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📱 Información del Dispositivo:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?attr/colorSurfaceVariant"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/tvInfoDispositivo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📋 Modelo: Detectando..."
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvVersionAndroid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🤖 Android: Obteniendo versión..."
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvMemoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="💾 Memoria disponible: Calculando..."
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <!-- Consejos de uso -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💡 Consejos de Uso:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?attr/colorSurfaceVariant"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Los TextViews muestran información estática o dinámica"
+                android:textSize="14sp"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Los ImageViews pueden ser interactivos o decorativos"
+                android:textSize="14sp"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Los ProgressBars indican el estado de operaciones largas"
+                android:textSize="14sp"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• La información puede actualizarse en tiempo real"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <!-- Footer informativo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✨ Esta pantalla demuestra elementos informativos de Android"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="?attr/colorOnSurfaceVariant" />
 
     </LinearLayout>
 </ScrollView>

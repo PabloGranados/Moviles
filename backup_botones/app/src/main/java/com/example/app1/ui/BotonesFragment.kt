@@ -72,7 +72,7 @@ class BotonesFragment : Fragment() {
         btnIcono?.setOnClickListener {
             contadorClics++
             updateContador()
-            Toast.makeText(context, "¡Me gusta presionado! ⭐", Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, "¡Me gusta presionado! 👍", Toast.LENGTH_SHORT).show()
         }
 
         btnOutlined?.setOnClickListener {
@@ -93,11 +93,11 @@ class BotonesFragment : Fragment() {
             updateContador()
             
             if (corazonActivo) {
-                ibCorazon?.setImageResource(android.R.drawable.btn_star_big_on)
-                Toast.makeText(context, "¡Favorito agregado! ❤️", Toast.LENGTH_SHORT).show()
+                ibCorazon?.setImageResource(android.R.drawable.ic_menu_add)
+                Toast.makeText(context, "¡Elemento agregado! ➕", Toast.LENGTH_SHORT).show()
             } else {
-                ibCorazon?.setImageResource(android.R.drawable.btn_star_big_off)
-                Toast.makeText(context, "Favorito removido 💔", Toast.LENGTH_SHORT).show()
+                ibCorazon?.setImageResource(android.R.drawable.ic_input_add)
+                Toast.makeText(context, "Elemento removido ➖", Toast.LENGTH_SHORT).show()
             }
         }
 
@@ -130,7 +130,7 @@ class BotonesFragment : Fragment() {
             updateContador()
             
             // Resetear estados
-            ibCorazon?.setImageResource(android.R.drawable.btn_star_big_off)
+            ibCorazon?.setImageResource(android.R.drawable.ic_input_add)
             toggleButton?.isChecked = false
             
             Toast.makeText(context, "¡Contador reiniciado! 🔄", Toast.LENGTH_SHORT).show()

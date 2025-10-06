@@ -10,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="@dimen/card_padding_standard"
-        android:minHeight="@dimen/card_min_height">
+        android:minHeight="@dimen/card_min_height"
+        android:paddingBottom="@dimen/padding_large">
 
         <!-- Timeline indicator -->
         <View
@@ -44,7 +45,7 @@
             android:layout_marginStart="@dimen/margin_medium"
             android:layout_marginEnd="@dimen/margin_small"
             app:layout_constraintStart_toEndOf="@id/ivPeriodIcon"
-            app:layout_constraintEnd_toStartOf="@id/ivExploreArrow"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@id/ivPeriodIcon"
             app:layout_constraintBottom_toBottomOf="@id/ivPeriodIcon">
 
@@ -70,48 +71,7 @@
                 android:layout_height="wrap_content"
                 style="@style/DinosaurText.PeriodInfo"
                 android:layout_marginTop="@dimen/text_spacing_small"
-                android:maxLines="3"
-                android:ellipsize="end"
                 tools:text="Los primeros dinosaurios aparecen en este período" />
-
-        </LinearLayout>
-
-        <!-- Flecha de exploración -->
-        <ImageView
-            android:id="@+id/ivExploreArrow"
-            android:layout_width="@dimen/icon_size_medium"
-            android:layout_height="@dimen/icon_size_medium"
-            android:src="@drawable/ic_explore"
-            app:tint="@color/primary_green"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:contentDescription="Explore period" />
-
-        <!-- Puntos de interés indicator -->
-        <LinearLayout
-            android:id="@+id/interestPointsIndicator"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="@dimen/text_spacing_medium"
-            app:layout_constraintStart_toStartOf="@id/ivPeriodIcon"
-            app:layout_constraintTop_toBottomOf="@id/ivPeriodIcon">
-
-            <ImageView
-                android:layout_width="@dimen/icon_size_tiny"
-                android:layout_height="@dimen/icon_size_tiny"
-                android:src="@drawable/ic_fossil_site"
-                app:tint="@color/secondary_brown"
-                android:layout_marginEnd="@dimen/margin_tiny" />
-
-            <TextView
-                android:id="@+id/tvInterestCount"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="@style/DinosaurText.Tag"
-                android:textColor="@color/text_secondary"
-                tools:text="3 puntos" />
 
         </LinearLayout>
 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M36,36m-36,0a36,36 0,1 1,72 0a36,36 0,1 1,-72 0" />
+    
+    <!-- Dinosaur icon -->
+    <group android:scaleX="0.7" android:scaleY="0.7" android:pivotX="36" android:pivotY="36">
+        <!-- Head -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M25,28C25,26 27,24 30,24L42,24C45,24 47,26 47,28L47,40C47,42 45,44 42,44L30,44C27,44 25,42 25,40Z" />
+        
+        <!-- Body -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M42,34C42,32 44,30 47,30L58,30C61,30 63,32 63,34L63,48C63,50 61,52 58,52L47,52C44,52 42,50 42,48Z" />
+        
+        <!-- Eye -->
+        <circle
+            android:fillColor="#4CAF50"
+            android:centerX="34"
+            android:centerY="32"
+            android:radius="3dp" />
+        
+        <!-- Legs -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M46,50L46,58C46,59 47,60 48,60C49,60 50,59 50,58L50,50" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M56,50L56,58C56,59 57,60 58,60C59,60 60,59 60,58L60,50" />
+    </group>
+</vector>

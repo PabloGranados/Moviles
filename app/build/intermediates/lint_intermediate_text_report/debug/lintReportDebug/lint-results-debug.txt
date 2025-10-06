@@ -1,0 +1,765 @@
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:44: Error: android:lineHeight requires API level 28 (current min is 24) [NewApi]
+        <item name="android:lineHeight">34sp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:50: Error: android:lineHeight requires API level 28 (current min is 24) [NewApi]
+        <item name="android:lineHeight">24sp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:57: Error: android:lineHeight requires API level 28 (current min is 24) [NewApi]
+        <item name="android:lineHeight">30sp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:66: Error: android:lineHeight requires API level 28 (current min is 24) [NewApi]
+        <item name="android:lineHeight">24sp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:74: Error: android:lineHeight requires API level 28 (current min is 24) [NewApi]
+        <item name="android:lineHeight">20sp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:83: Error: android:lineHeight requires API level 28 (current min is 24) [NewApi]
+        <item name="android:lineHeight">26sp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:91: Error: android:lineHeight requires API level 28 (current min is 24) [NewApi]
+        <item name="android:lineHeight">18sp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:100: Error: android:lineHeight requires API level 28 (current min is 24) [NewApi]
+        <item name="android:lineHeight">22sp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:108: Error: android:lineHeight requires API level 28 (current min is 24) [NewApi]
+        <item name="android:lineHeight">16sp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:117: Error: android:lineHeight requires API level 28 (current min is 24) [NewApi]
+        <item name="android:lineHeight">22sp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:126: Error: android:lineHeight requires API level 28 (current min is 24) [NewApi]
+        <item name="android:lineHeight">18sp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:134: Error: android:lineHeight requires API level 28 (current min is 24) [NewApi]
+        <item name="android:lineHeight">16sp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:142: Error: android:lineHeight requires API level 28 (current min is 24) [NewApi]
+        <item name="android:lineHeight">16sp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:151: Error: android:lineHeight requires API level 28 (current min is 24) [NewApi]
+        <item name="android:lineHeight">26sp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:157: Error: android:lineHeight requires API level 28 (current min is 24) [NewApi]
+        <item name="android:lineHeight">20sp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:178: Error: android:paddingHorizontal requires API level 26 (current min is 24) [NewApi]
+        <item name="android:paddingHorizontal">24dp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:179: Error: android:paddingVertical requires API level 26 (current min is 24) [NewApi]
+        <item name="android:paddingVertical">12dp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:208: Error: android:layout_marginVertical requires API level 26 (current min is 24) [NewApi]
+        <item name="android:layout_marginVertical">@dimen/margin_small</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:209: Error: android:layout_marginHorizontal requires API level 26 (current min is 24) [NewApi]
+        <item name="android:layout_marginHorizontal">@dimen/margin_medium</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:213: Error: android:layout_marginVertical requires API level 26 (current min is 24) [NewApi]
+        <item name="android:layout_marginVertical">6dp</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:214: Error: android:layout_marginHorizontal requires API level 26 (current min is 24) [NewApi]
+        <item name="android:layout_marginHorizontal">@dimen/margin_medium</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:218: Error: android:layout_marginVertical requires API level 26 (current min is 24) [NewApi]
+        <item name="android:layout_marginVertical">@dimen/margin_small</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:219: Error: android:layout_marginHorizontal requires API level 26 (current min is 24) [NewApi]
+        <item name="android:layout_marginHorizontal">@dimen/margin_medium</item>
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "NewApi":
+   This check scans through all the Android API calls in the application and
+   warns about any calls that are not available on all versions targeted by
+   this application (according to its minimum SDK attribute in the manifest).
+
+   If you really want to use this API and don't need to support older devices
+   just set the minSdkVersion in your build.gradle or AndroidManifest.xml
+   files.
+
+   If your code is deliberately accessing newer APIs, and you have ensured
+   (e.g. with conditional execution) that this code will only ever be called
+   on a supported platform, then you can annotate your class or method with
+   the @TargetApi annotation specifying the local minimum SDK to apply, such
+   as @TargetApi(11), such that this check considers 11 rather than your
+   manifest file's minimum SDK as the required API level.
+
+   If you are deliberately setting android: attributes in style definitions,
+   make sure you place this in a values-vNN folder in order to avoid running
+   into runtime conflicts on certain devices where manufacturers have added
+   custom attributes whose ids conflict with the new ones on later platforms.
+
+   Similarly, you can use tools:targetApi="11" in an XML file to indicate that
+   the element will only be inflated in an adequate context.
+
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:13: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk = 34
+        ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application or sdk runs on a version of Android that is more
+   recent than your targetSdkVersion specifies that it has been tested with,
+   various compatibility modes kick in. This ensures that your application
+   continues to work, but it may look out of place. For example, if the
+   targetSdkVersion is less than 14, your app may get an option button in the
+   UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:8: Warning: A newer version of compileSdkVersion than 34 is available: 36 [GradleDependency]
+    compileSdk = 34
+    ~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:45: Warning: A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.17.0 [GradleDependency]
+    implementation("androidx.core:core-ktx:1.12.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:46: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1 [GradleDependency]
+    implementation("androidx.appcompat:appcompat:1.6.1")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:47: Warning: A newer version of com.google.android.material:material than 1.11.0 is available: 1.13.0 [GradleDependency]
+    implementation("com.google.android.material:material:1.11.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:48: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1 [GradleDependency]
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:49: Warning: A newer version of androidx.fragment:fragment-ktx than 1.6.2 is available: 1.8.9 [GradleDependency]
+    implementation("androidx.fragment:fragment-ktx:1.6.2")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:50: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.7.0 is available: 2.9.4 [GradleDependency]
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:51: Warning: A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.7.0 is available: 2.9.4 [GradleDependency]
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:52: Warning: A newer version of androidx.navigation:navigation-fragment-ktx than 2.7.6 is available: 2.9.5 [GradleDependency]
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.6")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:53: Warning: A newer version of androidx.navigation:navigation-ui-ktx than 2.7.6 is available: 2.9.5 [GradleDependency]
+    implementation("androidx.navigation:navigation-ui-ktx:2.7.6")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:54: Warning: A newer version of androidx.recyclerview:recyclerview than 1.3.2 is available: 1.4.0 [GradleDependency]
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:58: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0 [GradleDependency]
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:59: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0 [GradleDependency]
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\gradle\libs.versions.toml:4: Warning: A newer version of androidx.core:core-ktx than 1.10.1 is available: 1.17.0 [GradleDependency]
+coreKtx = "1.10.1"
+          ~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\gradle\libs.versions.toml:6: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0 [GradleDependency]
+junitVersion = "1.1.5"
+               ~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\gradle\libs.versions.toml:7: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0 [GradleDependency]
+espressoCore = "3.5.1"
+               ~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\gradle\libs.versions.toml:8: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.6.1 is available: 2.9.4 [GradleDependency]
+lifecycleRuntimeKtx = "2.6.1"
+                      ~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\gradle\libs.versions.toml:9: Warning: A newer version of androidx.activity:activity-compose than 1.8.0 is available: 1.11.0 [GradleDependency]
+activityCompose = "1.8.0"
+                  ~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\gradle\libs.versions.toml:10: Warning: A newer version of androidx.compose:compose-bom than 2024.09.00 is available: 2025.09.01 [GradleDependency]
+composeBom = "2024.09.00"
+             ~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\gradle\libs.versions.toml:3: Warning: A newer version of org.jetbrains.kotlin.android than 2.0.21 is available: 2.2.20 [NewerVersionAvailable]
+kotlin = "2.0.21"
+         ~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\gradle\libs.versions.toml:3: Warning: A newer version of org.jetbrains.kotlin.plugin.compose than 2.0.21 is available: 2.2.20 [NewerVersionAvailable]
+kotlin = "2.0.21"
+         ~~~~~~~~
+
+   Explanation for issues of type "NewerVersionAvailable":
+   This detector checks with a central repository to see if there are newer
+   versions available for the dependencies used by this project. This is
+   similar to the GradleDependency check, which checks for newer versions
+   available in the Android SDK tools and libraries, but this works with any
+   MavenCentral dependency, and connects to the library every time, which
+   makes it more flexible but also much slower.
+
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:7: Warning: Possible overdraw: Root element paints background @color/card_background_elevated with a theme that also paints a background (inferred theme is @style/DinosaurTheme) [Overdraw]
+    android:background="@color/card_background_elevated">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\fragment_explore.xml:7: Warning: Possible overdraw: Root element paints background @color/surface_light with a theme that also paints a background (inferred theme is @style/DinosaurTheme) [Overdraw]
+    android:background="@color/surface_light"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "Overdraw":
+   If you set a background drawable on a root view, then you should use a
+   custom theme where the theme background is null. Otherwise, the theme
+   background will be painted first, only to have your custom background
+   completely cover it; this is called "overdraw".
+
+   NOTE: This detector relies on figuring out which layouts are associated
+   with which activities based on scanning the Java code, and it's currently
+   doing that using an inexact pattern matching algorithm. Therefore, it can
+   incorrectly conclude which activity the layout is associated with and then
+   wrongly complain that a background-theme is hidden.
+
+   If you want your custom background on multiple pages, then you should
+   consider making a custom theme with your custom background and just using
+   that theme instead of a root element background.
+
+   Of course it's possible that your custom drawable is translucent and you
+   want it to be mixed with the background. However, you will get better
+   performance if you pre-mix the background with your drawable and use that
+   resulting image or color as a custom theme background instead.
+
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\colors.xml:20: Warning: The resource R.color.surface_dark appears to be unused [UnusedResources]
+    <color name="surface_dark">#2E2E2E</color>
+           ~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\colors.xml:23: Warning: The resource R.color.card_background_tinted appears to be unused [UnusedResources]
+    <color name="card_background_tinted">#F8F8F8</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\colors.xml:30: Warning: The resource R.color.text_high_contrast appears to be unused [UnusedResources]
+    <color name="text_high_contrast">#000000</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\colors.xml:31: Warning: The resource R.color.text_on_dark appears to be unused [UnusedResources]
+    <color name="text_on_dark">#FFFFFF</color>
+           ~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\colors.xml:32: Warning: The resource R.color.text_on_light appears to be unused [UnusedResources]
+    <color name="text_on_light">#212121</color>
+           ~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\colors.xml:52: Warning: The resource R.color.card_background appears to be unused [UnusedResources]
+    <color name="card_background">#FFFFFF</color>
+           ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\colors.xml:54: Warning: The resource R.color.card_shadow appears to be unused [UnusedResources]
+    <color name="card_shadow">#40000000</color>
+           ~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\colors.xml:58: Warning: The resource R.color.gradient_overlay_start appears to be unused [UnusedResources]
+    <color name="gradient_overlay_start">#80000000</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\colors.xml:59: Warning: The resource R.color.gradient_overlay_end appears to be unused [UnusedResources]
+    <color name="gradient_overlay_end">#00000000</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\dimens.xml:5: Warning: The resource R.dimen.margin_tiny appears to be unused [UnusedResources]
+    <dimen name="margin_tiny">4dp</dimen>
+           ~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\dimens.xml:9: Warning: The resource R.dimen.margin_xlarge appears to be unused [UnusedResources]
+    <dimen name="margin_xlarge">32dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\dimens.xml:15: Warning: The resource R.dimen.padding_xlarge appears to be unused [UnusedResources]
+    <dimen name="padding_xlarge">32dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\dimens.xml:20: Warning: The resource R.dimen.card_content_spacing appears to be unused [UnusedResources]
+    <dimen name="card_content_spacing">@dimen/margin_small</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\dimens.xml:26: Warning: The resource R.dimen.text_size_large appears to be unused [UnusedResources]
+    <dimen name="text_size_large">16sp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\dimens.xml:37: Warning: The resource R.dimen.card_corner_radius_small appears to be unused [UnusedResources]
+    <dimen name="card_corner_radius_small">12dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\dimens.xml:42: Warning: The resource R.dimen.image_size_tiny appears to be unused [UnusedResources]
+    <dimen name="image_size_tiny">32dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\dimens.xml:43: Warning: The resource R.dimen.image_size_small appears to be unused [UnusedResources]
+    <dimen name="image_size_small">48dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\dimens.xml:49: Warning: The resource R.dimen.icon_size_tiny appears to be unused [UnusedResources]
+    <dimen name="icon_size_tiny">16dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\dimens.xml:52: Warning: The resource R.dimen.icon_size_large appears to be unused [UnusedResources]
+    <dimen name="icon_size_large">48dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\dimens.xml:55: Warning: The resource R.integer.max_lines_title appears to be unused [UnusedResources]
+    <integer name="max_lines_title">2</integer>
+             ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\dimens.xml:56: Warning: The resource R.integer.max_lines_description appears to be unused [UnusedResources]
+    <integer name="max_lines_description">3</integer>
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\dimens.xml:57: Warning: The resource R.integer.max_lines_detail appears to be unused [UnusedResources]
+    <integer name="max_lines_detail">4</integer>
+             ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\dimens.xml:60: Warning: The resource R.dimen.interest_point_card_width appears to be unused [UnusedResources]
+    <dimen name="interest_point_card_width">120dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\dimens.xml:64: Warning: The resource R.dimen.min_touch_target appears to be unused [UnusedResources]
+    <dimen name="min_touch_target">48dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\dimens.xml:71: Warning: The resource R.dimen.text_spacing_large appears to be unused [UnusedResources]
+    <dimen name="text_spacing_large">12dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\exploration_map_background.xml:2: Warning: The resource R.drawable.exploration_map_background appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\ic_spinosaurus.xml:2: Warning: The resource R.drawable.ic_spinosaurus appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\ic_stegosaurus.xml:2: Warning: The resource R.drawable.ic_stegosaurus appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\ic_tyrannosaurus.xml:2: Warning: The resource R.drawable.ic_tyrannosaurus appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\anim\slide_in_left.xml:2: Warning: The resource R.anim.slide_in_left appears to be unused [UnusedResources]
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\anim\slide_out_right.xml:2: Warning: The resource R.anim.slide_out_right appears to be unused [UnusedResources]
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:17: Warning: The resource R.string.period_title appears to be unused [UnusedResources]
+    <string name="period_title">Períodos de la %s</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:45: Warning: The resource R.string.dinosaur_title appears to be unused [UnusedResources]
+    <string name="dinosaur_title">Criaturas del %s</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:46: Warning: The resource R.string.dinosaur_subtitle appears to be unused [UnusedResources]
+    <string name="dinosaur_subtitle">Descubre las fascinantes criaturas de este período</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:47: Warning: The resource R.string.dinosaur_characteristics appears to be unused [UnusedResources]
+    <string name="dinosaur_characteristics">Características</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:48: Warning: The resource R.string.dinosaur_habitat appears to be unused [UnusedResources]
+    <string name="dinosaur_habitat">Hábitat</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:49: Warning: The resource R.string.dinosaur_diet appears to be unused [UnusedResources]
+    <string name="dinosaur_diet">Dieta</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:50: Warning: The resource R.string.dinosaur_size appears to be unused [UnusedResources]
+    <string name="dinosaur_size">Tamaño</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:51: Warning: The resource R.string.dinosaur_discovery appears to be unused [UnusedResources]
+    <string name="dinosaur_discovery">Descubrimiento</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:54: Warning: The resource R.string.back_button appears to be unused [UnusedResources]
+    <string name="back_button">Volver</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:55: Warning: The resource R.string.explore_button appears to be unused [UnusedResources]
+    <string name="explore_button">Explorar</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:56: Warning: The resource R.string.learn_more appears to be unused [UnusedResources]
+    <string name="learn_more">Aprender más</string>
+            ~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:59: Warning: The resource R.string.time_travel_message appears to be unused [UnusedResources]
+    <string name="time_travel_message">Viajando a través del tiempo...</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:60: Warning: The resource R.string.entering_era appears to be unused [UnusedResources]
+    <string name="entering_era">Entrando a la %s</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:61: Warning: The resource R.string.exploring_period appears to be unused [UnusedResources]
+    <string name="exploring_period">Explorando el período %s</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:187: Warning: The resource R.style.DinosaurButton_Accent appears to be unused [UnusedResources]
+    <style name="DinosaurButton.Accent" parent="DinosaurButton">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:229: Warning: The resource R.style.DinosaurAnimation appears to be unused [UnusedResources]
+    <style name="DinosaurAnimation">
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:233: Warning: The resource R.style.DinosaurAnimation_SlideIn appears to be unused [UnusedResources]
+    <style name="DinosaurAnimation.SlideIn" parent="DinosaurAnimation">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\styles.xml:237: Warning: The resource R.style.DinosaurAnimation_FadeIn appears to be unused [UnusedResources]
+    <style name="DinosaurAnimation.FadeIn" parent="DinosaurAnimation">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+   Available options:
+
+   **skip-libraries** (default is true):
+   Whether the unused resource check should skip reporting unused resources in libraries.
+
+   Many libraries will declare resources that are part of the library surface; other modules depending on the library will also reference the resources. To avoid reporting all these resources as unused (in the context of a library), the unused resource check normally skips reporting unused resources in libraries. Instead, run the unused resource check on the consuming app module (along with `checkDependencies=true`).
+
+   However, there are cases where you want to check that all the resources declared in a library are used; in that case, you can disable the skip option.
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UnusedResources">
+           <option name="skip-libraries" value="true" />
+       </issue>
+   </lint>
+   ```
+
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:10: Warning: Replace "-" with an "en dash" character (–, &#8211;) ? [TypographyDashes]
+    <string name="era_mesozoica_desc">La Era de los Dinosaurios\n252 - 66 millones de años</string>
+                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:12: Warning: Replace "-" with an "en dash" character (–, &#8211;) ? [TypographyDashes]
+    <string name="era_paleozoica_desc">Los Primeros Vertebrados\n541 - 252 millones de años</string>
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:22: Warning: Replace "-" with an "en dash" character (–, &#8211;) ? [TypographyDashes]
+    <string name="period_triassic_desc">252 - 201 Ma\nLos primeros dinosaurios</string>
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:24: Warning: Replace "-" with an "en dash" character (–, &#8211;) ? [TypographyDashes]
+    <string name="period_jurassic_desc">201 - 145 Ma\nGigantes de cuello largo</string>
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:26: Warning: Replace "-" with an "en dash" character (–, &#8211;) ? [TypographyDashes]
+    <string name="period_cretaceous_desc">145 - 66 Ma\nDepredadores masivos</string>
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:30: Warning: Replace "-" with an "en dash" character (–, &#8211;) ? [TypographyDashes]
+    <string name="period_devonian_desc">419 - 359 Ma\nLa era de los peces</string>
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:32: Warning: Replace "-" with an "en dash" character (–, &#8211;) ? [TypographyDashes]
+    <string name="period_carboniferous_desc">359 - 299 Ma\nBosques gigantes</string>
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:34: Warning: Replace "-" with an "en dash" character (–, &#8211;) ? [TypographyDashes]
+    <string name="period_permian_desc">299 - 252 Ma\nSuperdepredadores</string>
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:38: Warning: Replace "-" with an "en dash" character (–, &#8211;) ? [TypographyDashes]
+    <string name="period_paleogene_desc">66 - 23 Ma\nRenacimiento tras extinción</string>
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:40: Warning: Replace "-" with an "en dash" character (–, &#8211;) ? [TypographyDashes]
+    <string name="period_neogene_desc">23 - 2.6 Ma\nExpansión de mamíferos</string>
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "TypographyDashes":
+   The "n dash" (u2013, &#8211;) and the "m dash" (u2014, &#8212;) characters
+   are used for ranges (n dash) and breaks (m dash). Using these instead of
+   plain hyphens can make text easier to read and your application will look
+   more polished.
+
+   https://en.wikipedia.org/wiki/Dash
+
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\values\strings.xml:59: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+    <string name="time_travel_message">Viajando a través del tiempo...</string>
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "TypographyEllipsis":
+   You can replace the string "..." with a dedicated ellipsis character,
+   ellipsis character (u2026, &#8230;). This can help make the text more
+   readable.
+
+   https://en.wikipedia.org/wiki/Ellipsis
+
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml:2: Warning: The application adaptive icon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml:2: Warning: The application adaptive roundIcon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+
+   Explanation for issues of type "MonochromeLauncherIcon":
+   If android:roundIcon and android:icon are both in your manifest, you must
+   either remove the reference to android:roundIcon if it is not needed; or,
+   supply the monochrome icon in the drawable defined by the android:roundIcon
+   and android:icon attribute.
+
+   For example, if android:roundIcon and android:icon are both in the
+   manifest, a launcher might choose to use android:roundIcon over
+   android:icon to display the adaptive app icon. Therefore, your themed
+   application iconwill not show if your monochrome attribute is not also
+   specified in android:roundIcon.
+
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_acanthostega.jpg: Warning: Found bitmap drawable res/drawable/creature_acanthostega.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_allosaurus.jpg: Warning: Found bitmap drawable res/drawable/creature_allosaurus.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_arthropleura.jpg: Warning: Found bitmap drawable res/drawable/creature_arthropleura.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_australopithecus.jpg: Warning: Found bitmap drawable res/drawable/creature_australopithecus.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_basilosaurus.png: Warning: Found bitmap drawable res/drawable/creature_basilosaurus.png in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_brachiosaurus.jpg: Warning: Found bitmap drawable res/drawable/creature_brachiosaurus.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_coelophysis.jpg: Warning: Found bitmap drawable res/drawable/creature_coelophysis.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_desmatosuchus.jpg: Warning: Found bitmap drawable res/drawable/creature_desmatosuchus.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_dimetrodon.jpg: Warning: Found bitmap drawable res/drawable/creature_dimetrodon.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_dunkleosteus.jpg: Warning: Found bitmap drawable res/drawable/creature_dunkleosteus.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_gorgonops.jpg: Warning: Found bitmap drawable res/drawable/creature_gorgonops.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_homo_sapiens.jpg: Warning: Found bitmap drawable res/drawable/creature_homo_sapiens.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_hyaenodon.jpg: Warning: Found bitmap drawable res/drawable/creature_hyaenodon.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_hylonomus.jpg: Warning: Found bitmap drawable res/drawable/creature_hylonomus.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_ichthyostega.jpg: Warning: Found bitmap drawable res/drawable/creature_ichthyostega.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_mammuthus.png: Warning: Found bitmap drawable res/drawable/creature_mammuthus.png in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_megalodon.png: Warning: Found bitmap drawable res/drawable/creature_megalodon.png in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_meganeura.jpg: Warning: Found bitmap drawable res/drawable/creature_meganeura.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_plateosaurus.jpg: Warning: Found bitmap drawable res/drawable/creature_plateosaurus.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_scutosaurus.jpg: Warning: Found bitmap drawable res/drawable/creature_scutosaurus.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_sivatherium.jpg: Warning: Found bitmap drawable res/drawable/creature_sivatherium.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_smilodon.jpg: Warning: Found bitmap drawable res/drawable/creature_smilodon.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_spinosaurus.png: Warning: Found bitmap drawable res/drawable/creature_spinosaurus.png in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_stegosaurus.jpg: Warning: Found bitmap drawable res/drawable/creature_stegosaurus.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_triceratops.jpg: Warning: Found bitmap drawable res/drawable/creature_triceratops.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_tyrannosaurus.jpg: Warning: Found bitmap drawable res/drawable/creature_tyrannosaurus.jpg in densityless folder [IconLocation]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_uintatherium.jpg: Warning: Found bitmap drawable res/drawable/creature_uintatherium.jpg in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_brachiosaurus.jpg: Warning: Misleading file extension; named .jpg but the file format is png [IconExtension]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_coelophysis.jpg: Warning: Misleading file extension; named .jpg but the file format is png [IconExtension]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_dimetrodon.jpg: Warning: Misleading file extension; named .jpg but the file format is png [IconExtension]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_stegosaurus.jpg: Warning: Misleading file extension; named .jpg but the file format is png [IconExtension]
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\drawable\creature_triceratops.jpg: Warning: Misleading file extension; named .jpg but the file format is png [IconExtension]
+
+   Explanation for issues of type "IconExtension":
+   Ensures that icons have the correct file extension (e.g. a .png file is
+   really in the PNG format and not for example a GIF file named .png).
+
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:45: Warning: Use version catalog instead (androidx.core:core-ktx is already available as androidx-core-ktx, but using version 1.10.1 instead) [UseTomlInstead]
+    implementation("androidx.core:core-ktx:1.12.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:46: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("androidx.appcompat:appcompat:1.6.1")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:47: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("com.google.android.material:material:1.11.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:48: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:49: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("androidx.fragment:fragment-ktx:1.6.2")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:50: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:51: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:52: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.6")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:53: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("androidx.navigation:navigation-ui-ktx:2.7.6")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:54: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:55: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("androidx.cardview:cardview:1.0.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:57: Warning: Use the existing version catalog reference (libs.junit) instead [UseTomlInstead]
+    testImplementation("junit:junit:4.13.2")
+                       ~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:58: Warning: Use the existing version catalog reference (libs.androidx.junit) instead [UseTomlInstead]
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\build.gradle.kts:59: Warning: Use the existing version catalog reference (libs.androidx.espresso.core) instead [UseTomlInstead]
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseTomlInstead":
+   If your project is using a libs.versions.toml file, you should place all
+   Gradle dependencies in the TOML file. This lint check looks for version
+   declarations outside of the TOML file and suggests moving them (and in the
+   IDE, provides a quickfix to performing the operation automatically).
+
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\activity_dinosaur.xml:32: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\activity_period.xml:32: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:23: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:55: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:118: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:158: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:198: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+
+   Explanation for issues of type "ContentDescription":
+   Non-textual widgets like ImageViews and ImageButtons should use the
+   contentDescription attribute to specify a textual description of the widget
+   such that screen readers and other accessibility tools can adequately
+   describe the user interface.
+
+   Note that elements in application screens that are purely decorative and do
+   not provide any content or enable a user action should not have
+   accessibility content descriptions. In this case, set their descriptions to
+   @null. If your app's minSdkVersion is 16 or higher, you can instead set
+   these graphical elements' android:importantForAccessibility attributes to
+   no.
+
+   Note that for text fields, you should not set both the hint and the
+   contentDescription attributes since the hint will never be shown. Just set
+   the hint.
+
+   https://developer.android.com/guide/topics/ui/accessibility/apps#special-cases
+
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\java\com\example\dinosaurapp\CreatureAdapter.kt:31: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            creatureDiet.text = "${creature.diet} • ${creature.size}"
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\java\com\example\dinosaurapp\ExplorationSiteAdapter.kt:26: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            siteName.text = "${getEmojiForType(site.type)} ${site.name}"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\activity_dinosaur.xml:84: Warning: Hardcoded string "Criaturas", should use @string resource [HardcodedText]
+                    android:text="Criaturas" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\activity_dinosaur.xml:89: Warning: Hardcoded string "Explorar", should use @string resource [HardcodedText]
+                    android:text="Explorar" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\activity_dinosaur.xml:94: Warning: Hardcoded string "Información", should use @string resource [HardcodedText]
+                    android:text="Información" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\activity_period.xml:125: Warning: Hardcoded string "Era information", should use @string resource [HardcodedText]
+        android:contentDescription="Era information" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:43: Warning: Hardcoded string "Criatura", should use @string resource [HardcodedText]
+                    android:text="Criatura" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:51: Warning: Hardcoded string "Nombre científico", should use @string resource [HardcodedText]
+                    android:text="Nombre científico" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:84: Warning: Hardcoded string "Descripción de la criatura", should use @string resource [HardcodedText]
+                    android:text="Descripción de la criatura" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:90: Warning: Hardcoded string "Características:", should use @string resource [HardcodedText]
+                    android:text="Características:"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:100: Warning: Hardcoded string "• Característica 1n• Característica 2", should use @string resource [HardcodedText]
+                    android:text="• Característica 1\n• Característica 2" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:134: Warning: Hardcoded string "Hábitat", should use @string resource [HardcodedText]
+                                android:text="Hábitat"
+                                ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:143: Warning: Hardcoded string "Hábitat de la criatura", should use @string resource [HardcodedText]
+                                android:text="Hábitat de la criatura" />
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:174: Warning: Hardcoded string "Dieta", should use @string resource [HardcodedText]
+                                android:text="Dieta"
+                                ~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:183: Warning: Hardcoded string "Dieta de la criatura", should use @string resource [HardcodedText]
+                                android:text="Dieta de la criatura" />
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:214: Warning: Hardcoded string "Tamaño", should use @string resource [HardcodedText]
+                                android:text="Tamaño"
+                                ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:223: Warning: Hardcoded string "Tamaño de la criatura", should use @string resource [HardcodedText]
+                                android:text="Tamaño de la criatura" />
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:235: Warning: Hardcoded string "Descubrimiento:", should use @string resource [HardcodedText]
+                    android:text="Descubrimiento:"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:244: Warning: Hardcoded string "Información del descubrimiento", should use @string resource [HardcodedText]
+                    android:text="Información del descubrimiento" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:263: Warning: Hardcoded string "Explorar más", should use @string resource [HardcodedText]
+                android:text="Explorar más"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\dialog_creature_details.xml:271: Warning: Hardcoded string "Entendido", should use @string resource [HardcodedText]
+                android:text="Entendido" />
+                ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\fragment_explore.xml:19: Warning: Hardcoded string "🏛️ Sitios de Exploración", should use @string resource [HardcodedText]
+            android:text="🏛️ Sitios de Exploración"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\fragment_explore.xml:40: Warning: Hardcoded string "🔍 Explora este período", should use @string resource [HardcodedText]
+                    android:text="🔍 Explora este período"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\fragment_explore.xml:48: Warning: Hardcoded string "Descubre los sitios más fascinantes de este período geológico y aprende sobre los hallazgos paleontológicos más importantes.", should use @string resource [HardcodedText]
+                    android:text="Descubre los sitios más fascinantes de este período geológico y aprende sobre los hallazgos paleontológicos más importantes."
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\fragment_info.xml:13: Warning: Hardcoded string "Viaje Temporal", should use @string resource [HardcodedText]
+        android:text="Viaje Temporal"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\fragment_info.xml:23: Warning: Hardcoded string "Selecciona una era para comenzar tu viaje a través del tiempo y descubrir las criaturas que dominaron nuestro planeta.", should use @string resource [HardcodedText]
+        android:text="Selecciona una era para comenzar tu viaje a través del tiempo y descubrir las criaturas que dominaron nuestro planeta."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\fragment_interest_points.xml:14: Warning: Hardcoded string "Puntos de Interés", should use @string resource [HardcodedText]
+        android:text="Puntos de Interés"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\fragment_period_info.xml:70: Warning: Hardcoded string "Clima y Ambiente", should use @string resource [HardcodedText]
+                    android:text="Clima y Ambiente"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\fragment_period_info.xml:102: Warning: Hardcoded string "Eventos Evolutivos", should use @string resource [HardcodedText]
+                    android:text="Eventos Evolutivos"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\fragment_period_info.xml:133: Warning: Hardcoded string "Descubrimientos Importantes", should use @string resource [HardcodedText]
+                    android:text="Descubrimientos Importantes"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\item_creature_card.xml:26: Warning: Hardcoded string "Creature image", should use @string resource [HardcodedText]
+            android:contentDescription="Creature image" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\item_creature_card.xml:83: Warning: Hardcoded string "View details", should use @string resource [HardcodedText]
+            android:contentDescription="View details" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\item_creature_card.xml:100: Warning: Hardcoded string "Cretácico", should use @string resource [HardcodedText]
+                android:text="Cretácico"
+                ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\item_creature_card.xml:111: Warning: Hardcoded string "Grande", should use @string resource [HardcodedText]
+                android:text="Grande"
+                ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\item_era_card.xml:27: Warning: Hardcoded string "Era icon", should use @string resource [HardcodedText]
+            android:contentDescription="Era icon" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\item_era_card.xml:68: Warning: Hardcoded string "Navigate to era", should use @string resource [HardcodedText]
+            android:contentDescription="Navigate to era" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\item_exploration_site.xml:29: Warning: Hardcoded string "Site icon", should use @string resource [HardcodedText]
+            android:contentDescription="Site icon" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\item_exploration_site.xml:75: Warning: Hardcoded string "Explore site", should use @string resource [HardcodedText]
+            android:contentDescription="Explore site" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\item_interest_point.xml:26: Warning: Hardcoded string "Interest point icon", should use @string resource [HardcodedText]
+            android:contentDescription="Interest point icon" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\item_period_card.xml:37: Warning: Hardcoded string "Period icon", should use @string resource [HardcodedText]
+            android:contentDescription="Period icon" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\palol\OneDrive\Documentos\GitHub\Moviles\app\src\main\res\layout\item_period_card.xml:89: Warning: Hardcoded string "Explore period", should use @string resource [HardcodedText]
+            android:contentDescription="Explore period" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+23 errors, 180 warnings

@@ -50,7 +50,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="⭐ Botón con Ícono:"
+            android:text="🔵 Botón con Ícono:"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginBottom="8dp" />
@@ -60,7 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="  Me Gusta"
-            android:drawableStart="@android:drawable/btn_star_big_on"
+            android:drawableStart="@android:drawable/ic_menu_preferences"
             android:drawablePadding="8dp"
             android:layout_marginBottom="16dp" />
 
@@ -118,9 +118,9 @@
                 android:id="@+id/ibCorazon"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:src="@android:drawable/btn_star_big_off"
+                android:src="@android:drawable/ic_input_add"
                 android:background="?attr/selectableItemBackgroundBorderless"
-                android:contentDescription="Botón corazón"
+                android:contentDescription="Botón agregar"
                 android:layout_margin="8dp" />
 
             <ImageButton
@@ -187,6 +187,17 @@
             android:layout_height="wrap_content"
             android:text="🔄 Reiniciar Contador"
             style="@style/Widget.Material3.Button.OutlinedButton" />
+
+        <!-- Footer informativo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✨ Esta pantalla demuestra botones interactivos de Android"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="?attr/colorOnSurfaceVariant" />
 
     </LinearLayout>
 </ScrollView>

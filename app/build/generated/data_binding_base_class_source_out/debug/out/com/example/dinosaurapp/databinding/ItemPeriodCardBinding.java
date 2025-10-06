@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,19 +21,10 @@ public final class ItemPeriodCardBinding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
-  public final LinearLayout interestPointsIndicator;
-
-  @NonNull
-  public final ImageView ivExploreArrow;
-
-  @NonNull
   public final ImageView ivPeriodIcon;
 
   @NonNull
   public final View timelineIndicator;
-
-  @NonNull
-  public final TextView tvInterestCount;
 
   @NonNull
   public final TextView tvPeriodDescription;
@@ -45,17 +35,12 @@ public final class ItemPeriodCardBinding implements ViewBinding {
   @NonNull
   public final TextView tvPeriodTime;
 
-  private ItemPeriodCardBinding(@NonNull CardView rootView,
-      @NonNull LinearLayout interestPointsIndicator, @NonNull ImageView ivExploreArrow,
-      @NonNull ImageView ivPeriodIcon, @NonNull View timelineIndicator,
-      @NonNull TextView tvInterestCount, @NonNull TextView tvPeriodDescription,
+  private ItemPeriodCardBinding(@NonNull CardView rootView, @NonNull ImageView ivPeriodIcon,
+      @NonNull View timelineIndicator, @NonNull TextView tvPeriodDescription,
       @NonNull TextView tvPeriodName, @NonNull TextView tvPeriodTime) {
     this.rootView = rootView;
-    this.interestPointsIndicator = interestPointsIndicator;
-    this.ivExploreArrow = ivExploreArrow;
     this.ivPeriodIcon = ivPeriodIcon;
     this.timelineIndicator = timelineIndicator;
-    this.tvInterestCount = tvInterestCount;
     this.tvPeriodDescription = tvPeriodDescription;
     this.tvPeriodName = tvPeriodName;
     this.tvPeriodTime = tvPeriodTime;
@@ -88,18 +73,6 @@ public final class ItemPeriodCardBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.interestPointsIndicator;
-      LinearLayout interestPointsIndicator = ViewBindings.findChildViewById(rootView, id);
-      if (interestPointsIndicator == null) {
-        break missingId;
-      }
-
-      id = R.id.ivExploreArrow;
-      ImageView ivExploreArrow = ViewBindings.findChildViewById(rootView, id);
-      if (ivExploreArrow == null) {
-        break missingId;
-      }
-
       id = R.id.ivPeriodIcon;
       ImageView ivPeriodIcon = ViewBindings.findChildViewById(rootView, id);
       if (ivPeriodIcon == null) {
@@ -109,12 +82,6 @@ public final class ItemPeriodCardBinding implements ViewBinding {
       id = R.id.timelineIndicator;
       View timelineIndicator = ViewBindings.findChildViewById(rootView, id);
       if (timelineIndicator == null) {
-        break missingId;
-      }
-
-      id = R.id.tvInterestCount;
-      TextView tvInterestCount = ViewBindings.findChildViewById(rootView, id);
-      if (tvInterestCount == null) {
         break missingId;
       }
 
@@ -136,9 +103,8 @@ public final class ItemPeriodCardBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemPeriodCardBinding((CardView) rootView, interestPointsIndicator, ivExploreArrow,
-          ivPeriodIcon, timelineIndicator, tvInterestCount, tvPeriodDescription, tvPeriodName,
-          tvPeriodTime);
+      return new ItemPeriodCardBinding((CardView) rootView, ivPeriodIcon, timelineIndicator,
+          tvPeriodDescription, tvPeriodName, tvPeriodTime);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

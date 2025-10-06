@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    <!-- Fondo -->
+    <circle
+        android:fillColor="@color/mesozoic_primary"
+        android:centerX="30"
+        android:centerY="30"
+        android:radius="25dp"/>
+    <!-- T-Rex simplificado -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M18,35 Q23,30 28,35 L42,35 Q47,30 52,35 L52,40 Q47,45 42,40 L28,40 Q23,45 18,40 Z"/>
+    <!-- Cabeza grande -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M42,35 Q48,28 52,35"/>
+    <!-- Brazos pequeños -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M35,35 L32,38"/>
+</vector>

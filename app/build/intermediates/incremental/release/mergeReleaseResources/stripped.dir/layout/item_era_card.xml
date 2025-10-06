@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/DinosaurCard.Era">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/card_padding_large"
+        android:background="@color/card_background_elevated"
+        android:minHeight="@dimen/card_min_height">
+
+        <!-- Imagen/Icono de la era -->
+        <ImageView
+            android:id="@+id/ivEraIcon"
+            android:layout_width="@dimen/image_size_large"
+            android:layout_height="@dimen/image_size_large"
+            android:scaleType="centerInside"
+            android:padding="@dimen/padding_small"
+            android:background="@drawable/creature_image_background"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_mesozoic_era"
+            android:contentDescription="Era icon" />
+
+        <!-- Contenido de texto -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_small"
+            app:layout_constraintStart_toEndOf="@id/ivEraIcon"
+            app:layout_constraintEnd_toStartOf="@id/ivArrow"
+            app:layout_constraintTop_toTopOf="@id/ivEraIcon"
+            app:layout_constraintBottom_toBottomOf="@id/ivEraIcon">
+
+            <TextView
+                android:id="@+id/tvEraName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DinosaurText.EraTitle"
+                tools:text="Era Mesozoica" />
+
+            <TextView
+                android:id="@+id/tvEraDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/DinosaurText.EraDescription"
+                android:layout_marginTop="@dimen/text_spacing_small"
+                tools:text="La Era de los Dinosaurios\n252 - 66 millones de años" />
+
+        </LinearLayout>
+
+        <!-- Flecha de navegación -->
+        <ImageView
+            android:id="@+id/ivArrow"
+            android:layout_width="@dimen/icon_size_small"
+            android:layout_height="@dimen/icon_size_small"
+            android:src="@drawable/ic_arrow_forward"
+            app:tint="@color/primary_green"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="Navigate to era" />
+
+        <!-- Indicador de progreso sutil -->
+        <View
+            android:id="@+id/progressIndicator"
+            android:layout_width="4dp"
+            android:layout_height="0dp"
+            android:background="@color/accent_orange"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:alpha="0.7" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    <!-- Fondo -->
+    <circle
+        android:fillColor="@color/cenozoic_secondary"
+        android:centerX="30"
+        android:centerY="30"
+        android:radius="25dp"/>
+    <!-- Mamífero evolucionado -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M15,35 Q20,30 30,35 Q40,30 45,35 Q40,40 30,35 Q20,40 15,35 Z"/>
+    <!-- Cuernos o características -->
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M25,30 L22,25"/>
+    <path
+        android:fillColor="@color/text_on_primary"
+        android:pathData="M35,30 L38,25"/>
+</vector>

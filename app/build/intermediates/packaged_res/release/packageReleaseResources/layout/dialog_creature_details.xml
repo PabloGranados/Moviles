@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/DinosaurCard.Dialog"
+    android:background="@color/card_background_elevated">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/card_padding_large">
+
+        <!-- Header con imagen de la criatura -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="@dimen/margin_medium">
+
+            <ImageView
+                android:id="@+id/ivCreatureIcon"
+                android:layout_width="@dimen/image_size_medium"
+                android:layout_height="@dimen/image_size_medium"
+                android:scaleType="centerInside"
+                android:background="@drawable/creature_image_background"
+                android:padding="@dimen/padding_small" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/margin_medium">
+
+                <TextView
+                    android:id="@+id/tvCreatureName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/DinosaurText.DialogTitle"
+                    android:text="Criatura" />
+
+                <TextView
+                    android:id="@+id/tvCreatureScientific"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/DinosaurText.CreatureScientific"
+                    android:layout_marginTop="@dimen/text_spacing_tiny"
+                    android:text="Nombre científico" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivCloseDialog"
+                android:layout_width="@dimen/icon_size_medium"
+                android:layout_height="@dimen/icon_size_medium"
+                android:src="@android:drawable/ic_menu_close_clear_cancel"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/padding_tiny"
+                app:tint="@color/text_secondary" />
+
+        </LinearLayout>
+
+        <!-- Contenido scrolleable -->
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="400dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Descripción -->
+                <TextView
+                    android:id="@+id/tvCreatureDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DinosaurText.DialogContent"
+                    android:layout_marginBottom="@dimen/margin_medium"
+                    android:text="Descripción de la criatura" />
+
+                <!-- Características -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Características:"
+                    style="@style/DinosaurText.CreatureName"
+                    android:layout_marginBottom="@dimen/text_spacing_medium" />
+
+                <TextView
+                    android:id="@+id/tvCreatureCharacteristics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DinosaurText.DialogContent"
+                    android:layout_marginBottom="@dimen/margin_medium"
+                    android:text="• Característica 1\n• Característica 2" />
+
+                <!-- Información básica en tarjetas -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="@dimen/margin_medium">
+
+                    <!-- Hábitat -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/fragment_background"
+                        android:padding="@dimen/padding_medium"
+                        android:layout_marginBottom="@dimen/margin_small">
+
+                        <ImageView
+                            android:layout_width="@dimen/icon_size_small"
+                            android:layout_height="@dimen/icon_size_small"
+                            android:src="@drawable/ic_habitat"
+                            app:tint="@color/primary_green"
+                            android:layout_marginEnd="@dimen/margin_medium" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hábitat"
+                                style="@style/DinosaurText.CreatureName" />
+
+                            <TextView
+                                android:id="@+id/tvCreatureHabitat"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/DinosaurText.CreatureInfo"
+                                android:layout_marginTop="@dimen/text_spacing_tiny"
+                                android:text="Hábitat de la criatura" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <!-- Dieta -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/fragment_background"
+                        android:padding="@dimen/padding_medium"
+                        android:layout_marginBottom="@dimen/margin_small">
+
+                        <ImageView
+                            android:layout_width="@dimen/icon_size_small"
+                            android:layout_height="@dimen/icon_size_small"
+                            android:src="@drawable/ic_info"
+                            app:tint="@color/secondary_brown"
+                            android:layout_marginEnd="@dimen/margin_medium" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Dieta"
+                                style="@style/DinosaurText.CreatureName" />
+
+                            <TextView
+                                android:id="@+id/tvCreatureDiet"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/DinosaurText.CreatureInfo"
+                                android:layout_marginTop="@dimen/text_spacing_tiny"
+                                android:text="Dieta de la criatura" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <!-- Tamaño -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/fragment_background"
+                        android:padding="@dimen/padding_medium"
+                        android:layout_marginBottom="@dimen/margin_small">
+
+                        <ImageView
+                            android:layout_width="@dimen/icon_size_small"
+                            android:layout_height="@dimen/icon_size_small"
+                            android:src="@drawable/ic_discovery"
+                            app:tint="@color/accent_orange"
+                            android:layout_marginEnd="@dimen/margin_medium" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tamaño"
+                                style="@style/DinosaurText.CreatureName" />
+
+                            <TextView
+                                android:id="@+id/tvCreatureSize"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/DinosaurText.CreatureInfo"
+                                android:layout_marginTop="@dimen/text_spacing_tiny"
+                                android:text="Tamaño de la criatura" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Descubrimiento -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Descubrimiento:"
+                    style="@style/DinosaurText.CreatureName"
+                    android:layout_marginBottom="@dimen/text_spacing_medium" />
+
+                <TextView
+                    android:id="@+id/tvCreatureDiscovery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/DinosaurText.DialogContent"
+                    android:text="Información del descubrimiento" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <!-- Botones de acción -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="@dimen/margin_medium">
+
+            <Button
+                android:id="@+id/btnExploreMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/DinosaurButton.Secondary"
+                android:text="Explorar más"
+                android:layout_marginEnd="@dimen/margin_small" />
+
+            <Button
+                android:id="@+id/btnCloseDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/DinosaurButton"
+                android:text="Entendido" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

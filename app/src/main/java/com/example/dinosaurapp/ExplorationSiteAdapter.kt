@@ -51,6 +51,8 @@ class ExplorationSiteAdapter(
                 InterestPointType.RESEARCH_STATION -> "🔬"
                 InterestPointType.OBSERVATION_POINT -> "🔭"
                 InterestPointType.TIME_PORTAL -> "⏰"
+                InterestPointType.HABITAT_INFO -> "🌳"
+                InterestPointType.DISCOVERY_SITE -> "📍"
             }
         }
         
@@ -60,6 +62,8 @@ class ExplorationSiteAdapter(
                 InterestPointType.RESEARCH_STATION -> "Laboratorio"
                 InterestPointType.OBSERVATION_POINT -> "Observatorio"
                 InterestPointType.TIME_PORTAL -> "Portal Temporal"
+                InterestPointType.HABITAT_INFO -> "Hábitat"
+                InterestPointType.DISCOVERY_SITE -> "Sitio Descubrimiento"
             }
         }
     }
